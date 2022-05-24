@@ -1,0 +1,205 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING
+  TermService
+ [svchost.exe]
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:7070           0.0.0.0:0              LISTENING
+ [AnyDesk.exe]
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    0.0.0.0:49672          0.0.0.0:0              LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49673          0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:49674          0.0.0.0:0              LISTENING
+ [spoolsv.exe]
+  TCP    0.0.0.0:49675          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    127.0.0.1:49725        127.0.0.1:49726        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49726        127.0.0.1:49725        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49729        127.0.0.1:49730        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49730        127.0.0.1:49729        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49733        127.0.0.1:49734        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49734        127.0.0.1:49733        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49738        127.0.0.1:49739        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49739        127.0.0.1:49738        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49747        127.0.0.1:49748        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49748        127.0.0.1:49747        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49908        127.0.0.1:49909        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49909        127.0.0.1:49908        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49965        127.0.0.1:49968        ESTABLISHED
+ [firefox.exe]
+  TCP    127.0.0.1:49968        127.0.0.1:49965        ESTABLISHED
+ [firefox.exe]
+  TCP    192.168.1.102:139      0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    192.168.1.102:3389     192.168.1.173:49814    ESTABLISHED
+  TermService
+ [svchost.exe]
+  TCP    192.168.1.102:49753    192.168.1.110:1433     ESTABLISHED
+ [enzi.exe]
+  TCP    192.168.5.100:139      0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    192.168.5.100:50322    192.168.5.1:80         TIME_WAIT
+  TCP    192.168.5.100:50335    192.168.5.1:80         TIME_WAIT
+  TCP    192.168.5.100:50417    34.107.221.82:80       TIME_WAIT
+  TCP    192.168.5.100:50472    192.168.5.1:80         ESTABLISHED
+ [firefox.exe]
+  TCP    192.168.5.100:50485    192.168.5.1:80         TIME_WAIT
+  TCP    192.168.5.100:50558    192.168.5.1:80         TIME_WAIT
+  TCP    192.168.5.100:50609    103.107.198.22:80      ESTABLISHED
+ [AnyDesk.exe]
+  TCP    192.168.5.100:50611    103.107.198.22:443     SYN_SENT
+ [AnyDesk.exe]
+  TCP    192.168.5.100:50614    103.107.198.22:6568    SYN_SENT
+ [AnyDesk.exe]
+  TCP    192.168.5.100:50628    103.107.198.22:80      ESTABLISHED
+ [AnyDesk.exe]
+  TCP    192.168.5.100:50631    192.168.5.1:80         ESTABLISHED
+ [firefox.exe]
+  TCP    192.168.5.100:50632    103.107.198.22:443     SYN_SENT
+ [AnyDesk.exe]
+  TCP    192.168.6.100:139      0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    192.168.6.100:50445    192.168.6.1:80         ESTABLISHED
+ [firefox.exe]
+  TCP    192.168.6.100:50487    192.168.6.1:80         ESTABLISHED
+ [firefox.exe]
+  TCP    192.168.6.100:50510    192.168.6.1:80         TIME_WAIT
+  TCP    192.168.6.100:50626    192.168.6.1:80         ESTABLISHED
+ [enzi.exe]
+  TCP    192.168.6.100:50629    192.168.6.1:80         ESTABLISHED
+ [firefox.exe]
+  TCP    192.168.7.100:139      0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    192.168.7.100:50132    192.168.7.1:80         TIME_WAIT
+  TCP    192.168.7.100:50282    192.168.7.1:80         ESTABLISHED
+ [firefox.exe]
+  TCP    192.168.7.100:50424    192.168.7.1:80         ESTABLISHED
+ [firefox.exe]
+  TCP    192.168.7.100:50434    192.168.7.1:80         ESTABLISHED
+ [firefox.exe]
+  TCP    192.168.7.100:50469    192.168.7.1:80         TIME_WAIT
+  TCP    192.168.7.100:50496    192.168.7.1:80         TIME_WAIT
+  TCP    192.168.7.100:50568    192.168.7.1:80         TIME_WAIT
+  TCP    192.168.7.100:50612    192.168.7.1:80         ESTABLISHED
+ [firefox.exe]
+  TCP    [::]:135               [::]:0                 LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:445               [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:3389              [::]:0                 LISTENING
+  TermService
+ [svchost.exe]
+  TCP    [::]:5985              [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:47001             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49664             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49665             [::]:0                 LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    [::]:49672             [::]:0                 LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49673             [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:49674             [::]:0                 LISTENING
+ [spoolsv.exe]
+  TCP    [::]:49675             [::]:0                 LISTENING
+ Can not obtain ownership information
+  UDP    0.0.0.0:123            *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:3389           *:*                    
+  TermService
+ [svchost.exe]
+  UDP    0.0.0.0:3544           *:*                    
+  iphlpsvc
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5050           *:*                    
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    127.0.0.1:55715        *:*                    
+  iphlpsvc
+ [svchost.exe]
+  UDP    192.168.1.102:137      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.102:138      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.5.100:137      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.5.100:138      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.5.100:55412    *:*                    
+  iphlpsvc
+ [svchost.exe]
+  UDP    192.168.6.100:137      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.6.100:138      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.7.100:137      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.7.100:138      *:*                    
+ Can not obtain ownership information
+  UDP    [::]:123               *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    [::]:500               *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:3389              *:*                    
+  TermService
+ [svchost.exe]
+  UDP    [::]:4500              *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:5353              *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    [::]:5355              *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    [fe80::3ccd:278b:3f57:fa9b%7]:546  *:*                    
+  Dhcp
+ [svchost.exe]

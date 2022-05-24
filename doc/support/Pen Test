@@ -1,0 +1,92 @@
+Domain Controller:
+- Local Security Authentication Server
+- Service Host Process 
+- WinVNC (Redundant)
+- AnyDesk 
+- Microsoft.ActiveDirectory.WebServices
+- Microsoft Spooler Subsystem
+- Domain Name System
+- Distributed File System Replication
+- Intersite Messaging Service
+- Microsoft Management Console
+- Dell DFS Service WinService
+
+
+E-Mail Server:
+- Mail Server
+- HTTP 
+- Service Host Process 
+- System
+- Openfire as Service
+- Application Layer Gateway
+- MySQL
+- Symantec Antivirus
+- Local Security Authentication Server
+
+
+Enzi CRM Server:
+- System
+- Service Host Process  
+- MSSQL Server
+- MSSQL Browser
+- Filezilla Server
+- Anydesk
+- Microsoft Spooler Subsystem
+- Windows Management Instrumentation Provider Service
+
+File Server:
+- System
+- Service Host Process  
+- Anydesk
+- Local Security Authentication Server
+- File Sharing
+
+Jeonsoft:
+- Filezilla
+- Free FTP Service (Redundant)
+- Service Host Process 
+- WinVNC (Redundant)
+- Teamviewer 
+- Microsoft SQL Server Analysis Services
+- Windows Start-Up Application
+- Local Security Authentication Server
+- JPS.exe (SUSPICIOUS - DANGEROUS unless Jeonsoft Program)
+
+
+Quickbooks:
+- Service Host Process  
+- WinVNC
+- Anydesk (Redundant)
+- Quickbooks
+- Putty Agent (Dangerous unless required by Quickbooks)
+- Windows Start-Up Application
+- Local Security Authentication Server
+- Microsoft Service and App Controller
+- Symantec Antivirus
+- CNAB3RPK.EXE - Canon Printer Free Fixer (SUSPICIOUS - Uninstall if not in use)
+- CNAB4RPK.EXE - Canon Printer Free Fixer (SUSPICIOUS - Uninstall if not in use)
+- Quickbooks Component
+
+Text Commander:
+- Service Host Process  
+- Anydesk
+- Local Security Authentication Server
+- Firefox (Close program when not in use)
+
+Voice Logger 1:
+- Service Host Process 
+- Local Security Authentication Server
+- Windows Start-Up Application
+- Recorder.exe
+- proPopup.exe - (SUSPICIOUS - Uninstall if not in use)
+
+Voice Logger 2:
+- Service Host Process 
+- Local Security Authentication Server
+- Windows Start-Up Application
+- Recorder.exe
+- proPopup.exe - (SUSPICIOUS - Uninstall if not in use)
+
+
+Firewall Filter Recommendation
+- Blacklist https://www.torproject.org

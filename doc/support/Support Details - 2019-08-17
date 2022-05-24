@@ -1,0 +1,14 @@
+Hi Sir Jeruel,
+
+We plan to schedule the following updates on 2019-08-17 (Saturday), as some of them requires no user connection during implementation:
+
+* Field Pool / Contract Master Address - Delete address data if blank data also do not allow push address info in rowmanager and data entry (From ~13,483,000 ---> ~5,050,000 )
+* Delete Blank Identity Reference Numbers in contract master (From ~2,155,000 ---> ~24,839)
+* Delete Blank Terms of Payment in contract master (From 869,193 ---> 724,844)
+* Updated contract master to not insert contract master terms if obligation = 0 
+* Clean-up duplicate address in Contract Master Address (from ~5,050,000 ---> 2,586,000)
+* Clean-up duplicate contacts in Contract Master Contacts (from 4,128,494 ---> 3,665,440)
+* Add and update Assign_to_GH column in all pools - update(enzi_pool.pbl/pbd)
+* Reindexing of Tables
+
+

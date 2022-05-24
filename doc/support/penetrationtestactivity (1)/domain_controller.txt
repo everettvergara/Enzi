@@ -1,0 +1,5344 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:88             0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:389            0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:464            0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:593            0.0.0.0:0              LISTENING
+  RpcEptMapper
+ [svchost.exe]
+  TCP    0.0.0.0:636            0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:3268           0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:3269           0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING
+  TermService
+ [svchost.exe]
+  TCP    0.0.0.0:5800           0.0.0.0:0              LISTENING
+ [WinVNC.exe]
+  TCP    0.0.0.0:5801           0.0.0.0:0              LISTENING
+ [winvnc.exe]
+  TCP    0.0.0.0:5900           0.0.0.0:0              LISTENING
+ [WinVNC.exe]
+  TCP    0.0.0.0:5901           0.0.0.0:0              LISTENING
+ [winvnc.exe]
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:7070           0.0.0.0:0              LISTENING
+ [AnyDesk.exe]
+  TCP    0.0.0.0:9389           0.0.0.0:0              LISTENING
+ [Microsoft.ActiveDirectory.WebServices.exe]
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING
+  SessionEnv
+ [svchost.exe]
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:49670          0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:49675          0.0.0.0:0              LISTENING
+ [spoolsv.exe]
+  TCP    0.0.0.0:49680          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49704          0.0.0.0:0              LISTENING
+ [dns.exe]
+  TCP    0.0.0.0:52710          0.0.0.0:0              LISTENING
+ [AnyDesk.exe]
+  TCP    0.0.0.0:60250          0.0.0.0:0              LISTENING
+ [DFSRs.exe]
+  TCP    127.0.0.1:53           0.0.0.0:0              LISTENING
+ [dns.exe]
+  TCP    127.0.0.1:389          127.0.0.1:49677        ESTABLISHED
+ [lsass.exe]
+  TCP    127.0.0.1:389          127.0.0.1:49679        ESTABLISHED
+ [lsass.exe]
+  TCP    127.0.0.1:49677        127.0.0.1:389          ESTABLISHED
+ [ismserv.exe]
+  TCP    127.0.0.1:49679        127.0.0.1:389          ESTABLISHED
+ [ismserv.exe]
+  TCP    192.168.1.4:53         0.0.0.0:0              LISTENING
+ [dns.exe]
+  TCP    192.168.1.4:135        192.168.1.12:50156     ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.43:50505     ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.43:50686     ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.43:50724     ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.43:50752     ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.56:56379     ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.113:50366    ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.177:51675    ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.177:51767    ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.177:51779    ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.177:51788    ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.202:54831    ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.202:55101    ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.219:49778    ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.219:49977    ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:135        192.168.1.219:50515    ESTABLISHED
+  RpcSs
+ [svchost.exe]
+  TCP    192.168.1.4:139        0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    192.168.1.4:445        192.168.1.34:49705     ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.4:445        192.168.1.44:58261     ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.4:445        192.168.1.44:58267     ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.4:445        192.168.1.97:53913     ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.4:445        192.168.1.113:50363    ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.4:445        192.168.1.113:50367    ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.4:445        192.168.1.129:64036    ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.4:445        192.168.1.143:50367    ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.4:445        192.168.1.228:62719    ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.4:445        192.168.1.228:62722    ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.4:3389       192.168.1.173:65492    ESTABLISHED
+  TermService
+ [svchost.exe]
+  TCP    192.168.1.4:49668      192.168.1.12:50157     ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.43:50687     ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.43:50725     ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.43:50753     ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.56:56380     ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.113:50358    ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.128:50466    ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.177:51676    ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.177:51768    ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.177:51780    ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.177:51789    ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.202:54832    ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.202:55102    ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.219:49978    ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:49668      192.168.1.219:50516    ESTABLISHED
+ [lsass.exe]
+  TCP    192.168.1.4:52710      143.244.33.68:80       ESTABLISHED
+ [AnyDesk.exe]
+  TCP    192.168.1.4:57573      192.168.1.81:389       SYN_SENT
+ [dns.exe]
+  TCP    192.168.1.4:57928      40.119.211.203:443     ESTABLISHED
+  ShellHWDetection
+ [svchost.exe]
+  TCP    192.168.1.4:60737      40.119.211.203:443     ESTABLISHED
+ [explorer.exe]
+  TCP    [::]:88                [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:135               [::]:0                 LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:389               [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:445               [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:464               [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:593               [::]:0                 LISTENING
+  RpcEptMapper
+ [svchost.exe]
+  TCP    [::]:636               [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:3268              [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:3269              [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:3389              [::]:0                 LISTENING
+  TermService
+ [svchost.exe]
+  TCP    [::]:5985              [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:9389              [::]:0                 LISTENING
+ [Microsoft.ActiveDirectory.WebServices.exe]
+  TCP    [::]:47001             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49664             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49665             [::]:0                 LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    [::]:49666             [::]:0                 LISTENING
+  SessionEnv
+ [svchost.exe]
+  TCP    [::]:49667             [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:49668             [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:49670             [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:49675             [::]:0                 LISTENING
+ [spoolsv.exe]
+  TCP    [::]:49680             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49704             [::]:0                 LISTENING
+ [dns.exe]
+  TCP    [::]:60250             [::]:0                 LISTENING
+ [DFSRs.exe]
+  TCP    [::1]:53               [::]:0                 LISTENING
+ [dns.exe]
+  TCP    [::1]:389              [::1]:53450            ESTABLISHED
+ [lsass.exe]
+  TCP    [::1]:389              [::1]:53461            ESTABLISHED
+ [lsass.exe]
+  TCP    [::1]:389              [::1]:53475            ESTABLISHED
+ [lsass.exe]
+  TCP    [::1]:49668            [::1]:57422            ESTABLISHED
+ [lsass.exe]
+  TCP    [::1]:49668            [::1]:60237            ESTABLISHED
+ [lsass.exe]
+  TCP    [::1]:49668            [::1]:60247            ESTABLISHED
+ [lsass.exe]
+  TCP    [::1]:53450            [::1]:389              ESTABLISHED
+ [dns.exe]
+  TCP    [::1]:53461            [::1]:389              ESTABLISHED
+ [DFSRs.exe]
+  TCP    [::1]:53475            [::1]:389              ESTABLISHED
+ [DFSRs.exe]
+  TCP    [::1]:57422            [::1]:49668            ESTABLISHED
+ [mmc.exe]
+  TCP    [::1]:57564            [::1]:135              TIME_WAIT
+  TCP    [::1]:60237            [::1]:49668            ESTABLISHED
+ [dfssvc.exe]
+  TCP    [::1]:60247            [::1]:49668            ESTABLISHED
+ [DFSRs.exe]
+  UDP    0.0.0.0:123            *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    0.0.0.0:389            *:*                    
+ [lsass.exe]
+  UDP    0.0.0.0:3389           *:*                    
+  TermService
+ [svchost.exe]
+  UDP    0.0.0.0:5050           *:*                    
+  CDPSvc
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:49351          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:50001          *:*                    
+ [AnyDesk.exe]
+  UDP    0.0.0.0:55180          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55181          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55182          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55183          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55184          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55185          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55186          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55187          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55188          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55189          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55190          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55191          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55192          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55193          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55194          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55195          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55196          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55197          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55198          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55199          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55200          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55201          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55202          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55203          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55204          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55205          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55206          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55207          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55208          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55209          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55210          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55211          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55212          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55213          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55214          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55215          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55216          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55217          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55218          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55219          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55220          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55221          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55222          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55223          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55224          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55225          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55226          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55227          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55228          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55229          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55230          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55231          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55232          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55233          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55234          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55235          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55236          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55237          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55238          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55239          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55240          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55241          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55242          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55243          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55244          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55245          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55246          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55247          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55248          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55249          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55250          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55251          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55252          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55253          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55254          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55255          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55256          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55257          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55258          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55259          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55260          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55261          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55262          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55263          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55264          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55265          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55266          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55267          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55268          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55269          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55270          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55271          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55272          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55273          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55274          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55275          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55276          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55277          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55278          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55279          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55280          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55281          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55282          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55283          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55284          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55285          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55286          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55287          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55288          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55289          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55290          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55291          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55292          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55293          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55294          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55295          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55296          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55297          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55298          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55299          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55300          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55301          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55302          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55303          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55304          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55305          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55306          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55307          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55308          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55309          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55310          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55311          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55312          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55313          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55314          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55315          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55316          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55317          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55318          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55319          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55320          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55321          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55322          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55323          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55324          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55325          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55326          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55327          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55328          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55329          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55330          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55331          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55332          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55333          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55334          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55335          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55336          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55337          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55338          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55339          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55340          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55341          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55342          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55343          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55344          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55345          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55346          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55347          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55348          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55349          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55350          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55351          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55352          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55353          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55354          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55355          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55356          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55357          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55358          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55359          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55360          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55361          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55362          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55363          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55364          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55365          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55366          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55367          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55368          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55369          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55370          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55371          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55372          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55373          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55374          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55375          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55376          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55377          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55378          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55379          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55380          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55381          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55382          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55383          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55384          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55385          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55386          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55387          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55388          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55389          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55390          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55391          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55392          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55393          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55394          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55395          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55396          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55397          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55398          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55399          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55400          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55401          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55402          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55403          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55404          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55405          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55406          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55407          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55408          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55409          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55410          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55411          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55412          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55413          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55414          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55415          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55416          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55417          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55418          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55419          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55420          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55421          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55422          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55423          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55424          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55425          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55426          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55427          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55428          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55429          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55430          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55431          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55432          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55433          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55434          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55435          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55436          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55437          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55438          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55439          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55440          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55441          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55442          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55443          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55444          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55445          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55446          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55447          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55448          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55449          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55450          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55451          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55452          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55453          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55454          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55455          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55456          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55457          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55458          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55459          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55460          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55461          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55462          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55463          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55464          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55465          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55466          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55467          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55468          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55469          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55470          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55471          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55472          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55473          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55474          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55475          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55476          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55477          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55478          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55479          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55480          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55481          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55482          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55483          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55484          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55485          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55486          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55487          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55488          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55489          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55490          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55491          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55492          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55493          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55494          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55495          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55496          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55497          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55498          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55499          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55500          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55501          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55502          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55503          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55504          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55505          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55506          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55507          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55508          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55509          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55510          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55511          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55512          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55513          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55514          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55515          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55516          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55517          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55518          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55519          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55520          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55521          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55522          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55523          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55524          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55525          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55526          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55527          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55528          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55529          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55530          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55531          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55532          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55533          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55534          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55535          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55536          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55537          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55538          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55539          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55540          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55541          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55542          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55543          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55544          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55545          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55546          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55547          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55548          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55549          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55550          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55551          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55552          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55553          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55554          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55555          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55556          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55557          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55558          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55559          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55560          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55561          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55562          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55563          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55564          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55565          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55566          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55567          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55568          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55569          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55570          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55571          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55572          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55573          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55574          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55575          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55576          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55577          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55578          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55579          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55580          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55581          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55582          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55583          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55584          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55585          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55586          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55587          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55588          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55589          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55590          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55591          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55592          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55593          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55594          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55595          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55596          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55597          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55598          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55599          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55600          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55601          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55602          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55603          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55604          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55605          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55606          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55607          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55608          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55609          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55610          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55611          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55612          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55613          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55614          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55615          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55616          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55617          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55618          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55619          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55620          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55621          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55622          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55623          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55624          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55625          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55626          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55627          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55628          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55629          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55630          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55631          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55632          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55633          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55634          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55635          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55636          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55637          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55638          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55639          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55640          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55641          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55642          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55643          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55644          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55645          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55646          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55647          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55648          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55649          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55650          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55651          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55652          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55653          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55654          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55655          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55656          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55657          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55658          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55659          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55660          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55661          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55662          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55663          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55664          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55665          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55666          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55667          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55668          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55669          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55670          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55671          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55672          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55673          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55674          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55675          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55676          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55677          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55678          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55679          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55680          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55681          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55682          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55683          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55684          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55685          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55686          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55687          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55688          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55689          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55690          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55691          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55692          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55693          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55694          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55695          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55696          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55697          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55698          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55699          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55700          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55701          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55702          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55703          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55704          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55705          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55706          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55707          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55708          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55709          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55710          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55711          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55712          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55713          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55714          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55715          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55716          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55717          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55718          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55719          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55720          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55721          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55722          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55723          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55724          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55725          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55726          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55727          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55728          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55729          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55730          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55731          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55732          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55733          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55734          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55735          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55736          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55737          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55738          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55739          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55740          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55741          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55742          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55743          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55744          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55745          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55746          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55747          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55748          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55749          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55750          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55751          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55752          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55753          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55754          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55755          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55756          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55757          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55758          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55759          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55760          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55761          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55762          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55763          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55764          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55765          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55766          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55767          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55768          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55769          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55770          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55771          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55772          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55773          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55774          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55775          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55776          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55777          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55778          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55779          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55780          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55781          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55782          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55783          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55784          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55785          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55786          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55787          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55788          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55789          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55790          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55791          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55792          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55793          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55794          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55795          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55796          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55797          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55798          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55799          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55800          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55801          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55802          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55803          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55804          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55805          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55806          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55807          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55808          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55809          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55810          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55811          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55812          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55813          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55814          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55815          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55816          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55817          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55818          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55819          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55820          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55821          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55822          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55823          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55824          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55825          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55826          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55827          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55828          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55829          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55830          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55831          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55832          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55833          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55834          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55835          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55836          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55837          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55838          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55839          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55840          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55841          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55842          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55843          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55844          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55845          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55846          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55847          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55848          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55849          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55850          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55851          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55852          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55853          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55854          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55855          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55856          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55857          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55858          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55859          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55860          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55861          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55862          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55863          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55864          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55865          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55866          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55867          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55868          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55869          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55870          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55871          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55872          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55873          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55874          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55875          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55876          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55877          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55878          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55879          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55880          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55881          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55882          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55883          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55884          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55885          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55886          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55887          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55888          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55889          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55890          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55891          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55892          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55893          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55894          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55895          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55896          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55897          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55898          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55899          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55900          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55901          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55902          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55903          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55904          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55905          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55906          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55907          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55908          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55909          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55910          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55911          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55912          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55913          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55914          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55915          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55916          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55917          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55918          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55919          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55920          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55921          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55922          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55923          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55924          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55925          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55926          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55927          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55928          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55929          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55930          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55931          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55932          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55933          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55934          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55935          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55936          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55937          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55938          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55939          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55940          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55941          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55942          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55943          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55944          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55945          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55946          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55947          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55948          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55949          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55950          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55951          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55952          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55953          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55954          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55955          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55956          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55957          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55958          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55959          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55960          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55961          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55962          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55963          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55964          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55965          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55966          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55967          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55968          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55969          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55970          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55971          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55972          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55973          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55974          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55975          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55976          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55977          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55978          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55979          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55980          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55981          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55982          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55983          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55984          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55985          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55986          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55987          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55988          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55989          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55990          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55991          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55992          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55993          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55994          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55995          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55996          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55997          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55998          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:55999          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56000          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56001          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56002          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56003          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56004          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56005          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56006          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56007          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56008          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56009          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56010          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56011          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56012          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56013          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56014          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56015          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56016          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56017          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56018          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56019          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56020          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56021          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56022          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56023          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56024          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56025          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56026          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56027          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56028          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56029          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56030          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56031          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56032          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56033          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56034          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56035          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56036          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56037          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56038          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56039          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56040          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56041          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56042          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56043          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56044          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56045          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56046          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56047          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56048          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56049          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56050          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56051          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56052          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56053          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56054          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56055          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56056          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56057          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56058          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56059          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56060          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56061          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56062          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56063          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56064          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56065          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56066          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56067          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56068          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56069          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56070          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56071          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56072          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56073          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56074          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56075          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56076          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56077          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56078          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56079          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56080          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56081          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56082          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56083          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56084          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56085          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56086          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56087          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56088          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56089          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56090          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56091          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56092          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56093          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56094          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56095          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56096          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56097          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56098          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56099          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56100          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56101          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56102          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56103          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56104          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56105          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56106          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56107          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56108          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56109          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56110          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56111          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56112          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56113          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56114          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56115          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56116          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56117          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56118          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56119          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56120          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56121          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56122          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56123          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56124          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56125          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56126          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56127          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56128          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56129          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56130          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56131          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56132          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56133          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56134          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56135          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56136          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56137          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56138          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56139          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56140          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56141          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56142          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56143          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56144          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56145          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56146          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56147          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56148          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56149          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56150          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56151          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56152          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56153          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56154          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56155          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56156          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56157          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56158          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56159          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56160          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56161          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56162          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56163          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56164          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56165          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56166          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56167          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56168          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56169          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56170          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56171          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56172          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56173          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56174          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56175          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56176          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56177          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56178          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56179          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56180          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56181          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56182          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56183          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56184          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56185          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56186          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56187          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56188          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56189          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56190          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56191          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56192          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56193          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56194          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56195          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56196          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56197          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56198          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56199          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56200          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56201          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56202          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56203          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56204          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56205          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56206          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56207          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56208          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56209          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56210          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56211          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56212          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56213          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56214          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56215          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56216          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56217          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56218          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56219          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56220          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56221          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56222          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56223          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56224          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56225          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56226          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56227          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56228          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56229          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56230          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56231          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56232          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56233          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56234          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56235          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56236          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56237          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56238          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56239          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56240          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56241          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56242          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56243          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56244          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56245          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56246          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56247          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56248          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56249          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56250          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56251          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56252          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56253          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56254          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56255          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56256          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56257          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56258          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56259          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56260          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56261          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56262          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56263          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56264          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56265          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56266          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56267          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56268          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56269          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56270          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56271          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56272          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56273          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56274          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56275          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56276          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56277          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56278          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56279          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56280          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56281          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56282          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56283          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56284          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56285          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56286          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56287          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56288          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56289          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56290          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56291          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56292          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56293          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56294          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56295          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56296          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56297          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56298          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56299          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56300          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56301          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56302          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56303          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56304          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56305          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56306          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56307          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56308          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56309          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56310          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56311          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56312          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56313          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56314          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56315          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56316          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56317          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56318          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56319          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56320          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56321          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56322          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56323          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56324          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56325          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56326          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56327          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56328          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56329          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56330          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56331          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56332          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56333          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56334          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56335          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56336          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56337          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56338          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56339          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56340          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56341          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56342          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56343          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56344          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56345          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56346          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56347          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56348          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56349          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56350          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56351          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56352          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56353          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56354          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56355          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56356          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56357          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56358          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56359          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56360          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56361          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56362          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56363          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56364          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56365          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56366          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56367          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56368          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56369          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56370          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56371          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56372          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56373          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56374          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56375          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56376          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56377          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56378          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56379          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56380          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56381          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56382          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56383          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56384          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56385          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56386          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56387          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56388          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56389          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56390          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56391          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56392          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56393          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56394          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56395          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56396          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56397          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56398          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56399          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56400          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56401          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56402          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56403          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56404          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56405          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56406          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56407          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56408          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56409          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56410          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56411          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56412          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56413          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56414          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56415          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56416          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56417          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56418          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56419          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56420          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56421          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56422          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56423          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56424          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56425          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56426          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56427          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56428          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56429          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56430          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56431          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56432          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56433          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56434          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56435          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56436          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56437          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56438          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56439          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56440          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56441          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56442          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56443          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56444          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56445          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56446          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56447          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56448          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56449          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56450          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56451          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56452          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56453          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56454          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56455          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56456          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56457          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56458          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56459          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56460          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56461          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56462          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56463          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56464          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56465          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56466          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56467          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56468          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56469          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56470          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56471          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56472          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56473          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56474          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56475          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56476          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56477          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56478          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56479          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56480          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56481          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56482          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56483          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56484          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56485          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56486          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56487          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56488          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56489          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56490          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56491          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56492          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56493          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56494          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56495          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56496          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56497          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56498          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56499          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56500          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56501          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56502          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56503          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56504          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56505          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56506          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56507          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56508          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56509          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56510          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56511          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56512          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56513          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56514          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56515          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56516          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56517          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56518          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56519          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56520          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56521          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56522          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56523          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56524          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56525          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56526          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56527          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56528          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56529          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56530          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56531          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56532          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56533          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56534          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56535          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56536          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56537          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56538          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56539          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56540          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56541          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56542          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56543          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56544          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56545          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56546          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56547          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56548          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56549          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56550          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56551          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56552          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56553          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56554          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56555          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56556          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56557          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56558          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56559          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56560          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56561          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56562          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56563          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56564          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56565          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56566          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56567          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56568          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56569          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56570          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56571          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56572          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56573          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56574          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56575          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56576          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56577          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56578          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56579          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56580          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56581          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56582          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56583          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56584          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56585          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56586          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56587          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56588          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56589          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56590          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56591          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56592          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56593          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56594          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56595          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56596          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56597          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56598          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56599          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56600          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56601          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56602          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56603          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56604          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56605          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56606          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56607          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56608          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56609          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56610          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56611          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56612          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56613          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56614          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56615          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56616          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56617          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56618          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56619          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56620          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56621          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56622          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56623          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56624          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56625          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56626          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56627          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56628          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56629          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56630          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56631          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56632          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56633          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56634          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56635          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56636          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56637          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56638          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56639          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56640          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56641          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56642          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56643          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56644          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56645          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56646          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56647          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56648          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56649          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56650          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56651          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56652          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56653          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56654          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56655          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56656          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56657          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56658          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56659          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56660          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56661          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56662          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56663          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56664          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56665          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56666          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56667          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56668          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56669          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56670          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56671          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56672          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56673          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56674          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56675          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56676          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56677          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56678          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56679          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56680          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56681          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56682          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56683          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56684          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56685          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56686          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56687          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56688          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56689          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56690          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56691          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56692          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56693          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56694          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56695          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56696          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56697          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56698          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56699          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56700          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56701          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56702          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56703          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56704          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56705          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56706          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56707          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56708          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56709          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56710          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56711          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56712          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56713          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56714          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56715          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56716          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56717          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56718          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56719          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56720          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56721          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56722          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56723          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56724          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56725          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56726          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56727          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56728          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56729          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56730          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56731          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56732          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56733          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56734          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56735          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56736          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56737          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56738          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56739          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56740          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56741          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56742          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56743          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56744          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56745          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56746          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56747          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56748          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56749          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56750          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56751          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56752          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56753          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56754          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56755          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56756          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56757          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56758          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56759          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56760          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56761          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56762          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56763          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56764          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56765          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56766          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56767          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56768          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56770          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56771          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56772          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56773          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56774          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56775          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56776          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56777          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56778          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56779          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56780          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56781          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56782          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56783          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56784          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56785          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56786          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56787          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56788          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56789          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56790          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56791          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56792          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56793          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56794          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56795          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56796          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56797          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56798          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56799          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56800          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56801          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56802          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56803          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56804          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56805          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56806          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56807          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56808          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56811          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56812          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56813          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56814          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56815          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56816          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56817          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56818          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56819          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56820          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56821          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56822          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56823          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56824          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56825          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56826          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56827          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56828          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56829          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56830          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56831          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56832          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56833          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56834          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56835          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56836          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56837          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56838          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56839          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56840          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56841          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56842          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56843          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56844          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56845          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56846          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56847          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56848          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56849          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56850          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56851          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56852          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56853          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56854          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56855          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56856          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56857          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56858          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56859          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56860          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56861          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56862          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56863          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56864          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56865          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56866          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56867          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56868          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56869          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56870          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56871          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56872          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56873          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56874          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56875          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56876          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56877          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56878          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56879          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56880          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56881          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56882          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56883          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56884          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56885          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56886          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56887          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56888          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56889          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56890          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56891          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56892          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56893          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56894          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56895          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56896          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56897          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56898          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56899          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56900          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56901          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56902          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56903          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56904          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56905          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56906          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56907          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56908          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56909          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56910          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56911          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56912          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56913          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56914          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56915          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56916          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56917          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56918          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56919          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56920          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56921          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56922          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56923          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56924          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56925          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56926          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56927          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56928          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56929          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56930          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56931          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56932          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56933          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56934          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56935          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56936          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56937          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56938          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56939          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56940          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56941          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56942          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56943          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56944          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56945          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56946          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56947          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56948          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56949          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56950          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56951          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56952          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56953          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56954          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56955          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56956          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56957          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56958          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56959          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56960          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56961          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56962          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56963          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56964          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56965          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56966          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56967          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56968          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56969          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56970          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56971          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56972          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56973          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56974          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56975          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56976          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56977          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56978          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56979          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56980          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56981          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56982          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56983          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56984          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56985          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56986          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56987          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56988          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56989          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56990          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56991          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56992          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56993          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56994          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56995          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56996          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56997          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56998          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:56999          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57000          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57001          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57002          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57003          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57004          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57005          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57006          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57007          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57008          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57009          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57010          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57011          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57012          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57013          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57014          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57015          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57016          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57017          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57018          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57019          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57020          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57021          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57022          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57023          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57024          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57025          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57026          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57027          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57028          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57029          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57030          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57031          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57032          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57033          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57034          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57035          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57036          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57037          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57038          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57039          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57040          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57041          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57042          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57043          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57044          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57045          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57046          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57047          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57048          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57049          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57050          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57051          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57052          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57053          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57054          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57055          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57056          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57057          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57058          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57059          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57060          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57061          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57062          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57063          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57064          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57065          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57066          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57067          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57068          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57069          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57070          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57071          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57072          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57073          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57074          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57075          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57076          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57077          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57078          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57079          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57080          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57081          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57082          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57083          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57084          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57085          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57086          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57087          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57088          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57089          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57090          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57091          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57092          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57093          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57094          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57095          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57096          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57097          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57098          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57099          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57100          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57101          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57102          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57103          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57104          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57105          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57106          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57107          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57108          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57109          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57110          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57111          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57112          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57113          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57114          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57115          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57116          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57117          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57118          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57119          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57120          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57121          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57122          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57123          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57124          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57125          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57126          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57127          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57128          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57129          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57130          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57131          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57132          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57133          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57134          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57135          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57136          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57137          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57138          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57139          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57140          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57141          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57142          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57143          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57144          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57145          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57146          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57147          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57148          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57149          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57150          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57151          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57152          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57153          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57154          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57155          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57156          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57157          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57158          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57159          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57160          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57161          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57162          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57163          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57164          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57165          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57166          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57167          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57168          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57169          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57170          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57171          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57172          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57173          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57174          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57175          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57176          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57177          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57178          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57179          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57180          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57181          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57182          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57183          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57184          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57185          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57186          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57187          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57188          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57189          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57190          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57191          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57192          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57193          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57194          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57195          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57196          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57197          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57198          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57199          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57200          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57201          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57202          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57203          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57204          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57205          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57206          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57207          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57208          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57209          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57210          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57211          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57212          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57213          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57214          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57215          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57216          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57217          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57218          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57219          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57220          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57221          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57222          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57223          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57224          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57225          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57226          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57227          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57228          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57229          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57230          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57231          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57232          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57233          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57234          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57235          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57236          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57237          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57238          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57239          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57240          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57241          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57242          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57243          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57244          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57245          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57246          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57247          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57248          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57249          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57250          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57251          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57252          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57253          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57254          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57255          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57256          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57257          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57258          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57259          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57260          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57261          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57262          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57263          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57264          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57265          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57266          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57267          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57268          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57269          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57270          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57271          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57272          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57273          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57274          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57275          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57276          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57277          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57278          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57279          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57280          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57281          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57282          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57283          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57284          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57285          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57286          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57287          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57288          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57289          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57290          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57291          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57292          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57293          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57294          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57295          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57296          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57297          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57298          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57299          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57300          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57301          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57302          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57303          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57304          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57305          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57306          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57307          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57308          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57309          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57310          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57311          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57312          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57313          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57314          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57315          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57316          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57317          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57318          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57319          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57320          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57321          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57322          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57323          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57324          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57325          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57326          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57327          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57328          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57329          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57330          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57331          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57332          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57333          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57334          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57335          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57336          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57337          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57338          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57339          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57340          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57341          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57342          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57343          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57344          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57345          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57346          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57347          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57348          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57349          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57350          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57351          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57352          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57353          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57354          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57355          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57356          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57357          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57358          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57359          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57360          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57361          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57362          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57363          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57364          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57365          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57366          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57367          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57368          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57369          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57370          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57371          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57372          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57373          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57374          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57375          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57376          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57377          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57378          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57379          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57380          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57382          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57383          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57384          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57385          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57386          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57387          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57388          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57389          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57390          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57391          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57392          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57393          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57394          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57395          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57396          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57397          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57398          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57399          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57400          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57401          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57402          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57403          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57404          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57405          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57406          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57407          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57408          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57409          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57410          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57411          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57412          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57413          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57414          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57415          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57416          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57417          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57418          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57419          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57420          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57421          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57422          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57423          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57424          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57425          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57426          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57427          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57428          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57429          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57430          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57431          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57432          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57433          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57434          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57435          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57436          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57437          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57438          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57439          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57440          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57441          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57442          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57443          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57444          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57445          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57446          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57447          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57448          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57449          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57450          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57451          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57452          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57453          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57454          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57455          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57456          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57457          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57458          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57459          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57460          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57461          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57462          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57463          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57464          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57465          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57466          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57467          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57468          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57469          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57470          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57471          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57472          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57473          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57474          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57475          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57476          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57477          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57478          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57479          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57480          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57481          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57482          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57483          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57484          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57485          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57486          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57487          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57488          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57489          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57490          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57491          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57492          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57493          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57494          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57495          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57496          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57497          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57498          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57499          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57500          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57501          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57502          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57503          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57504          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57505          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57506          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57507          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57508          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57509          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57510          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57511          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57512          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57513          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57514          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57515          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57516          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57517          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57518          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57519          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57520          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57521          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57522          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57523          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57524          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57525          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57526          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57527          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57528          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57529          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57530          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57531          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57532          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57533          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57534          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57535          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57536          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57537          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57538          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57539          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57540          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57541          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57542          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57543          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57544          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57545          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57546          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57547          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57548          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57549          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57550          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57551          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57552          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57553          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57554          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57555          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57556          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57557          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57558          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57559          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57560          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57561          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57562          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57563          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57564          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57565          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57566          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57567          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57568          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57569          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57570          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57571          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57572          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57573          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57574          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57575          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57576          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57577          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57578          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57579          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57580          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57581          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57582          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57583          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57584          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57585          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57586          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57587          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57588          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57589          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57590          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57591          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57592          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57593          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57594          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57595          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57596          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57597          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57598          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57599          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57600          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57601          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57602          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57603          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57604          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57605          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57606          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57607          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57608          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57609          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57610          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57611          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57612          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57613          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57614          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57615          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57616          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57617          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57618          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57619          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57620          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57621          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57622          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57623          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57624          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57625          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57626          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57627          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57628          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57629          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57630          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57631          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57632          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57633          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57634          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57635          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57636          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57637          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57638          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57639          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57640          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57641          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57642          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57643          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57644          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57645          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57646          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57647          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57648          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57649          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57650          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57651          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57652          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57653          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57654          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57655          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57656          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57657          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57658          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57659          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57660          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57661          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57662          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57663          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57664          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57665          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57666          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57667          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57668          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57669          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57670          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57671          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57672          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57673          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57674          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57675          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57676          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57677          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57678          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57679          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57680          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57681          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57682          *:*                    
+ [dns.exe]
+  UDP    0.0.0.0:57683          *:*                    
+ [dns.exe]
+  UDP    127.0.0.1:53           *:*                    
+ [dns.exe]
+  UDP    127.0.0.1:50233        *:*                    
+ [dfssvc.exe]
+  UDP    127.0.0.1:50674        *:*                    
+  SessionEnv
+ [svchost.exe]
+  UDP    127.0.0.1:55083        *:*                    
+ [Microsoft.ActiveDirectory.WebServices.exe]
+  UDP    127.0.0.1:56810        *:*                    
+ [ismserv.exe]
+  UDP    127.0.0.1:57684        *:*                    
+ [mmc.exe]
+  UDP    127.0.0.1:57685        *:*                    
+  NlaSvc
+ [svchost.exe]
+  UDP    127.0.0.1:57864        *:*                    
+ [spoolsv.exe]
+  UDP    127.0.0.1:58004        *:*                    
+ [lsass.exe]
+  UDP    127.0.0.1:59186        *:*                    
+ [mmc.exe]
+  UDP    127.0.0.1:63503        *:*                    
+ [DllHost.exe]
+  UDP    127.0.0.1:64412        *:*                    
+ [dns.exe]
+  UDP    127.0.0.1:64683        *:*                    
+ [DFSRs.exe]
+  UDP    127.0.0.1:65160        *:*                    
+ [mmc.exe]
+  UDP    192.168.1.4:53         *:*                    
+ [dns.exe]
+  UDP    192.168.1.4:88         *:*                    
+ [lsass.exe]
+  UDP    192.168.1.4:137        *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.4:138        *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.4:464        *:*                    
+ [lsass.exe]
+  UDP    [::]:123               *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    [::]:389               *:*                    
+ [lsass.exe]
+  UDP    [::]:3389              *:*                    
+  TermService
+ [svchost.exe]
+  UDP    [::]:49352             *:*                    
+ [dns.exe]
+  UDP    [::1]:53               *:*                    
+ [dns.exe]
+  UDP    [::1]:55177            *:*                    
+ [dns.exe]

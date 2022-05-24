@@ -1,0 +1,162 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING
+  CryptSvc
+ [svchost.exe]
+  TCP    0.0.0.0:5800           0.0.0.0:0              LISTENING
+ [WinVNC.exe]
+  TCP    0.0.0.0:5900           0.0.0.0:0              LISTENING
+ [WinVNC.exe]
+  TCP    0.0.0.0:7070           0.0.0.0:0              LISTENING
+ [AnyDesk.exe]
+  TCP    0.0.0.0:8019           0.0.0.0:0              LISTENING
+ [QBCFMonitorService.exe]
+  TCP    0.0.0.0:9005           0.0.0.0:0              LISTENING
+ [pqagent.exe]
+  TCP    0.0.0.0:49152          0.0.0.0:0              LISTENING
+ [wininit.exe]
+  TCP    0.0.0.0:49153          0.0.0.0:0              LISTENING
+  eventlog
+ [svchost.exe]
+  TCP    0.0.0.0:49154          0.0.0.0:0              LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49155          0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:49161          0.0.0.0:0              LISTENING
+ [services.exe]
+  TCP    0.0.0.0:49162          0.0.0.0:0              LISTENING
+  PolicyAgent
+ [svchost.exe]
+  TCP    0.0.0.0:49163          0.0.0.0:0              LISTENING
+ [ccSvcHst.exe]
+  TCP    0.0.0.0:49165          0.0.0.0:0              LISTENING
+ [CNAB3RPK.EXE]
+  TCP    0.0.0.0:49166          0.0.0.0:0              LISTENING
+ [CNAB4RPK.EXE]
+  TCP    0.0.0.0:55368          0.0.0.0:0              LISTENING
+ [QBDBMgrN.exe]
+  TCP    192.168.1.61:139       0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    192.168.1.61:3389      192.168.1.173:50239    ESTABLISHED
+  CryptSvc
+ [svchost.exe]
+  TCP    192.168.1.61:49317     192.168.1.173:445      ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.61:52264     143.244.33.73:6568     ESTABLISHED
+ [AnyDesk.exe]
+  TCP    192.168.1.61:55012     192.168.1.225:49158    ESTABLISHED
+ [spoolsv.exe]
+  TCP    192.168.1.61:56211     192.168.1.108:445      ESTABLISHED
+ Can not obtain ownership information
+  TCP    192.168.1.61:56453     192.168.1.4:135        TIME_WAIT
+  TCP    192.168.1.61:56454     192.168.1.4:49668      TIME_WAIT
+  TCP    192.168.1.61:56464     192.168.1.4:49668      TIME_WAIT
+  TCP    192.168.1.61:56469     192.168.1.167:50009    ESTABLISHED
+ [spoolsv.exe]
+  TCP    [::]:80                [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:135               [::]:0                 LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:445               [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:3389              [::]:0                 LISTENING
+  CryptSvc
+ [svchost.exe]
+  TCP    [::]:49152             [::]:0                 LISTENING
+ [wininit.exe]
+  TCP    [::]:49153             [::]:0                 LISTENING
+  eventlog
+ [svchost.exe]
+  TCP    [::]:49154             [::]:0                 LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49155             [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:49161             [::]:0                 LISTENING
+ [services.exe]
+  TCP    [::]:49162             [::]:0                 LISTENING
+  PolicyAgent
+ [svchost.exe]
+  TCP    [::]:49164             [::]:0                 LISTENING
+ [ccSvcHst.exe]
+  TCP    [::]:49165             [::]:0                 LISTENING
+ [CNAB3RPK.EXE]
+  TCP    [::]:49166             [::]:0                 LISTENING
+ [CNAB4RPK.EXE]
+  TCP    [::]:55368             [::]:0                 LISTENING
+ [QBDBMgrN.exe]
+  UDP    0.0.0.0:123            *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:64953          *:*                    
+ [spoolsv.exe]
+  UDP    127.0.0.1:1900         *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:2638         *:*                    
+ [QBDBMgrN.exe]
+  UDP    127.0.0.1:50303        *:*                    
+ [wmiprvse.exe]
+  UDP    127.0.0.1:50445        *:*                    
+ [lsass.exe]
+  UDP    127.0.0.1:54445        *:*                    
+  gpsvc
+ [svchost.exe]
+  UDP    127.0.0.1:55368        *:*                    
+ [QBDBMgrN.exe]
+  UDP    127.0.0.1:65115        *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.61:137       *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.61:138       *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.61:1900      *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.61:2638      *:*                    
+ [QBDBMgrN.exe]
+  UDP    192.168.1.61:55368     *:*                    
+ [QBDBMgrN.exe]
+  UDP    192.168.1.61:65114     *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::]:123               *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    [::]:500               *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:4500              *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    [::1]:1900             *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::1]:2638             *:*                    
+ [QBDBMgrN.exe]
+  UDP    [::1]:55368            *:*                    
+ [QBDBMgrN.exe]
+  UDP    [::1]:65113            *:*                    
+  SSDPSRV
+ [svchost.exe]

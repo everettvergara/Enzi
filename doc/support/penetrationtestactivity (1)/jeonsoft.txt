@@ -1,0 +1,186 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:21             0.0.0.0:0              LISTENING
+ [FileZilla Server.exe]
+  TCP    0.0.0.0:22             0.0.0.0:0              LISTENING
+ [freeFTPdService.exe]
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+
+ Can not obtain ownership information
+  TCP    0.0.0.0:1433           0.0.0.0:0              LISTENING
+ [sqlservr.exe]
+  TCP    0.0.0.0:2383           0.0.0.0:0              LISTENING
+ [msmdsrv.exe]
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING
+  Dnscache
+ [svchost.exe]
+  TCP    0.0.0.0:5357           0.0.0.0:0              LISTENING
+
+ Can not obtain ownership information
+  TCP    0.0.0.0:5800           0.0.0.0:0              LISTENING
+ [WinVNC.exe]
+  TCP    0.0.0.0:5900           0.0.0.0:0              LISTENING
+ [WinVNC.exe]
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING
+
+ Can not obtain ownership information
+  TCP    0.0.0.0:49152          0.0.0.0:0              LISTENING
+ [wininit.exe]
+  TCP    0.0.0.0:49153          0.0.0.0:0              LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    0.0.0.0:49154          0.0.0.0:0              LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49155          0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:49156          0.0.0.0:0              LISTENING
+  PolicyAgent
+ [svchost.exe]
+  TCP    0.0.0.0:49161          0.0.0.0:0              LISTENING
+ [services.exe]
+  TCP    127.0.0.1:1434         0.0.0.0:0              LISTENING
+ [sqlservr.exe]
+  TCP    127.0.0.1:5939         0.0.0.0:0              LISTENING
+ [TeamViewer_Service.exe]
+  TCP    127.0.0.1:5939         127.0.0.1:49172        ESTABLISHED
+ [TeamViewer_Service.exe]
+  TCP    127.0.0.1:14147        0.0.0.0:0              LISTENING
+ [FileZilla Server.exe]
+  TCP    127.0.0.1:49172        127.0.0.1:5939         ESTABLISHED
+ [TeamViewer.exe]
+  TCP    192.168.1.101:21       192.168.1.138:57666    ESTABLISHED
+ [FileZilla Server.exe]
+  TCP    192.168.1.101:139      0.0.0.0:0              LISTENING
+
+ Can not obtain ownership information
+  TCP    192.168.1.101:1433     192.168.1.7:49319      ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.101:1433     192.168.1.7:49323      ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.101:1433     192.168.1.20:49459     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.101:1433     192.168.1.101:51395    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.101:1433     192.168.1.167:49914    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.101:1433     192.168.1.225:49370    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.101:3389     192.168.1.173:53980    ESTABLISHED
+  Dnscache
+ [svchost.exe]
+  TCP    192.168.1.101:51395    192.168.1.101:1433     ESTABLISHED
+ [JPS.exe]
+  TCP    192.168.1.101:51450    188.172.221.77:5938    ESTABLISHED
+ [TeamViewer_Service.exe]
+  TCP    192.168.1.101:51601    192.168.1.173:445      ESTABLISHED
+
+ Can not obtain ownership information
+  TCP    192.168.1.101:51800    202.124.193.220:445    ESTABLISHED
+
+ Can not obtain ownership information
+  TCP    [::]:21                [::]:0                 LISTENING
+ [FileZilla Server.exe]
+  TCP    [::]:135               [::]:0                 LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:445               [::]:0                 LISTENING
+
+ Can not obtain ownership information
+  TCP    [::]:1433              [::]:0                 LISTENING
+ [sqlservr.exe]
+  TCP    [::]:2383              [::]:0                 LISTENING
+ [msmdsrv.exe]
+  TCP    [::]:3389              [::]:0                 LISTENING
+  Dnscache
+ [svchost.exe]
+  TCP    [::]:5357              [::]:0                 LISTENING
+
+ Can not obtain ownership information
+  TCP    [::]:47001             [::]:0                 LISTENING
+
+ Can not obtain ownership information
+  TCP    [::]:49152             [::]:0                 LISTENING
+ [wininit.exe]
+  TCP    [::]:49153             [::]:0                 LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    [::]:49154             [::]:0                 LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49155             [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:49156             [::]:0                 LISTENING
+  PolicyAgent
+ [svchost.exe]
+  TCP    [::]:49161             [::]:0                 LISTENING
+ [services.exe]
+  TCP    [::1]:1434             [::]:0                 LISTENING
+ [sqlservr.exe]
+  TCP    [::1]:14147            [::]:0                 LISTENING
+ [FileZilla Server.exe]
+  UDP    0.0.0.0:123            *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:3702           *:*                    
+  EventSystem
+ [svchost.exe]
+  UDP    0.0.0.0:3702           *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    0.0.0.0:3702           *:*                    
+  EventSystem
+ [svchost.exe]
+  UDP    0.0.0.0:3702           *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:55058          *:*                    
+  EventSystem
+ [svchost.exe]
+  UDP    0.0.0.0:62541          *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    192.168.1.101:137      *:*                    
+
+ Can not obtain ownership information
+  UDP    192.168.1.101:138      *:*                    
+
+ Can not obtain ownership information
+  UDP    [::]:123               *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    [::]:500               *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:3702              *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    [::]:3702              *:*                    
+  EventSystem
+ [svchost.exe]
+  UDP    [::]:3702              *:*                    
+  EventSystem
+ [svchost.exe]
+  UDP    [::]:3702              *:*                    
+  FDResPub
+ [svchost.exe]
+  UDP    [::]:55059             *:*                    
+  EventSystem
+ [svchost.exe]
+  UDP    [::]:62542             *:*                    
+  FDResPub
+ [svchost.exe]

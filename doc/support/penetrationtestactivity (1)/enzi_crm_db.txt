@@ -1,0 +1,516 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:1433           0.0.0.0:0              LISTENING
+ [sqlservr.exe]
+  TCP    0.0.0.0:2107           0.0.0.0:0              LISTENING
+ [FileZilla Server.exe]
+  TCP    0.0.0.0:2383           0.0.0.0:0              LISTENING
+ [msmdsrv.exe]
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING
+  TermService
+ [svchost.exe]
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:7070           0.0.0.0:0              LISTENING
+ [AnyDesk.exe]
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+ [spoolsv.exe]
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING
+ [lsass.exe]
+  TCP    0.0.0.0:49670          0.0.0.0:0              LISTENING
+  PolicyAgent
+ [svchost.exe]
+  TCP    0.0.0.0:49674          0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    0.0.0.0:62783          0.0.0.0:0              LISTENING
+ [AnyDesk.exe]
+  TCP    127.0.0.1:1434         0.0.0.0:0              LISTENING
+ [sqlservr.exe]
+  TCP    127.0.0.1:14147        0.0.0.0:0              LISTENING
+ [FileZilla Server.exe]
+  TCP    127.0.0.1:14147        127.0.0.1:55019        ESTABLISHED
+ [FileZilla Server.exe]
+  TCP    127.0.0.1:55019        127.0.0.1:14147        ESTABLISHED
+ [FileZilla Server Interface.exe]
+  TCP    192.168.1.10:139       0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    192.168.1.10:1433      58.69.224.245:49188    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      58.69.224.245:49200    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      58.69.224.245:49229    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      58.69.224.245:49237    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      58.69.224.245:49283    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      58.69.224.245:49811    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      58.69.224.245:59932    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      180.190.242.192:26185  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      180.190.242.192:26199  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      180.190.242.192:26217  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      180.190.242.192:26653  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      180.190.242.192:28471  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      180.190.242.192:51214  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      180.190.242.192:59610  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      180.190.242.192:62952  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:49169  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:49175  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:49190  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:49229  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:49232  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:49238  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:49332  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:49413  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:49588  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:50205  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:50768  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:50985  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:54241  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:58235  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      202.137.121.159:64580  ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:14173   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:14635   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:16243   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:22425   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:24841   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:28126   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:30595   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:49192   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:49748   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:49772   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:56428   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:58164   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:60849   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:1433      222.127.49.104:63700   ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.10:49877     52.139.250.253:443     ESTABLISHED
+ [Explorer.EXE]
+  TCP    192.168.1.10:55160     5.62.53.213:443        TIME_WAIT
+  TCP    192.168.1.10:59191     52.139.250.253:443     ESTABLISHED
+  ShellHWDetection
+ [svchost.exe]
+  TCP    192.168.1.10:61471     13.225.93.61:443       CLOSE_WAIT
+ Can not obtain ownership information
+  TCP    192.168.1.10:62783     103.107.198.18:80      ESTABLISHED
+ [AnyDesk.exe]
+  TCP    192.168.1.110:139      0.0.0.0:0              LISTENING
+ Can not obtain ownership information
+  TCP    192.168.1.110:1433     192.168.1.20:49323     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.22:50931     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.23:49314     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.24:62633     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.25:49269     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.26:49346     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.28:49240     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.29:50544     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.31:49522     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.33:58146     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.34:49230     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.35:49220     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.37:49224     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.38:65050     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.39:49249     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.40:49710     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.41:53631     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.42:49234     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.43:49823     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.44:49592     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.45:49260     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.47:54138     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.48:59687     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.51:50717     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.54:49585     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.56:56406     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.57:49482     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.58:50563     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.63:49326     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.65:49300     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.66:49582     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.67:49278     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.69:52389     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.70:49408     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.72:49254     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.73:57559     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.75:62140     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.76:59539     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.77:49258     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.80:49237     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.84:49228     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.85:49223     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.86:49644     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.87:49284     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.88:50435     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.89:49645     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.92:49224     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.94:60958     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.99:49301     ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.100:49479    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.102:49753    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.114:49271    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.115:49258    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.118:52868    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.121:49248    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.126:49251    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.128:49340    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.129:63542    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.130:51880    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.132:49567    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.134:49279    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.135:49367    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.136:49229    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.140:63170    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.141:49242    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.142:64323    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.144:49255    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.147:49386    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.148:61338    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.149:57382    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.153:49734    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.154:53827    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.156:49237    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.157:62072    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.158:62225    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.159:49271    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.160:49226    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.162:49336    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.163:49298    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.175:64282    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.176:59127    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.177:51270    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.181:49240    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.182:49238    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.183:50621    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.185:49226    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.186:57067    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.189:64676    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.191:49258    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.193:59357    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.194:49232    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.195:55743    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.196:49721    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.202:54691    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.203:62816    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.204:49244    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.211:49231    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.214:50975    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.218:49231    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.219:63304    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.222:49265    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.223:52671    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.224:64944    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.227:49676    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.228:60544    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.229:52057    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.231:49249    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.234:49224    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.236:49429    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.237:58199    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.238:49277    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:1433     192.168.1.245:52677    ESTABLISHED
+ [sqlservr.exe]
+  TCP    192.168.1.110:55161    192.168.1.4:135        TIME_WAIT
+  TCP    192.168.1.110:55162    192.168.1.4:49668      TIME_WAIT
+  TCP    192.168.1.110:57148    192.168.1.173:7070     ESTABLISHED
+ [AnyDesk.exe]
+  TCP    [::]:80                [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:135               [::]:0                 LISTENING
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:445               [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:1433              [::]:0                 LISTENING
+ [sqlservr.exe]
+  TCP    [::]:2107              [::]:0                 LISTENING
+ [FileZilla Server.exe]
+  TCP    [::]:2383              [::]:0                 LISTENING
+ [msmdsrv.exe]
+  TCP    [::]:3389              [::]:0                 LISTENING
+  TermService
+ [svchost.exe]
+  TCP    [::]:5985              [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:47001             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49664             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::]:49665             [::]:0                 LISTENING
+  EventLog
+ [svchost.exe]
+  TCP    [::]:49666             [::]:0                 LISTENING
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49667             [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:49668             [::]:0                 LISTENING
+ [spoolsv.exe]
+  TCP    [::]:49669             [::]:0                 LISTENING
+ [lsass.exe]
+  TCP    [::]:49670             [::]:0                 LISTENING
+  PolicyAgent
+ [svchost.exe]
+  TCP    [::]:49674             [::]:0                 LISTENING
+ Can not obtain ownership information
+  TCP    [::1]:1434             [::]:0                 LISTENING
+ [sqlservr.exe]
+  TCP    [::1]:14147            [::]:0                 LISTENING
+ [FileZilla Server.exe]
+  UDP    0.0.0.0:123            *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:1434           *:*                    
+ [sqlbrowser.exe]
+  UDP    0.0.0.0:3389           *:*                    
+  TermService
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5050           *:*                    
+ [svchost.exe]
+  UDP    0.0.0.0:5353           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                    
+  Dnscache
+ [svchost.exe]
+  UDP    127.0.0.1:1900         *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:50247        *:*                    
+ [wmiprvse.exe]
+  UDP    127.0.0.1:52922        *:*                    
+ Can not obtain ownership information
+  UDP    127.0.0.1:57378        *:*                    
+ [wmiprvse.exe]
+  UDP    127.0.0.1:57455        *:*                    
+  NlaSvc
+ [svchost.exe]
+  UDP    127.0.0.1:58265        *:*                    
+ [wmiprvse.exe]
+  UDP    127.0.0.1:58321        *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:60678        *:*                    
+ [wmiprvse.exe]
+  UDP    127.0.0.1:61485        *:*                    
+  iphlpsvc
+ [svchost.exe]
+  UDP    127.0.0.1:63629        *:*                    
+ [wmiprvse.exe]
+  UDP    127.0.0.1:65426        *:*                    
+ [lsass.exe]
+  UDP    192.168.1.10:137       *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.10:138       *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.10:1900      *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.10:58320     *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.110:137      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.110:138      *:*                    
+ Can not obtain ownership information
+  UDP    192.168.1.110:1900     *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.1.110:58319    *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::]:123               *:*                    
+  W32Time
+ [svchost.exe]
+  UDP    [::]:500               *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:1434              *:*                    
+ [sqlbrowser.exe]
+  UDP    [::]:3389              *:*                    
+  TermService
+ [svchost.exe]
+  UDP    [::]:4500              *:*                    
+  IKEEXT
+ [svchost.exe]
+  UDP    [::1]:1900             *:*                    
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::1]:58318            *:*                    
+  SSDPSRV
+ [svchost.exe]

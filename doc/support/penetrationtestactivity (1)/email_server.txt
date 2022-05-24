@@ -1,0 +1,763 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:25             0.0.0.0:0              LISTENING       2208
+  [hMailServer.exe]
+
+  TCP    0.0.0.0:26             0.0.0.0:0              LISTENING       2208
+  [hMailServer.exe]
+
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING       1384
+  [httpd1.exe]
+
+  TCP    0.0.0.0:110            0.0.0.0:0              LISTENING       2208
+  [hMailServer.exe]
+
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1336
+  c:\windows\system32\WS2_32.dll
+  C:\WINDOWS\system32\RPCRT4.dll
+  c:\windows\system32\rpcss.dll
+  C:\WINDOWS\system32\svchost.exe
+  C:\WINDOWS\system32\ADVAPI32.dll
+  [svchost.exe]
+
+  TCP    0.0.0.0:143            0.0.0.0:0              LISTENING       2208
+  [hMailServer.exe]
+
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  [System]
+
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       1236
+  -- unknown component(s) --
+  [svchost.exe]
+
+  TCP    0.0.0.0:5222           0.0.0.0:0              LISTENING       868
+  [openfire-service.exe]
+
+  TCP    0.0.0.0:5223           0.0.0.0:0              LISTENING       868
+  [openfire-service.exe]
+
+  TCP    0.0.0.0:5229           0.0.0.0:0              LISTENING       868
+  [openfire-service.exe]
+
+  TCP    0.0.0.0:9090           0.0.0.0:0              LISTENING       868
+  [openfire-service.exe]
+
+  TCP    0.0.0.0:9091           0.0.0.0:0              LISTENING       868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1026         0.0.0.0:0              LISTENING       2708
+  [alg.exe]
+
+  TCP    127.0.0.1:1030         0.0.0.0:0              LISTENING       892
+  [ccSvcHst.exe]
+
+  TCP    127.0.0.1:3306         0.0.0.0:0              LISTENING       1480
+  [mysqld1.exe]
+
+  TCP    192.168.1.3:139        0.0.0.0:0              LISTENING       4
+  [System]
+
+  TCP    127.0.0.1:1025         127.0.0.1:3306         ESTABLISHED     2208
+  [hMailServer.exe]
+
+  TCP    127.0.0.1:1040         127.0.0.1:1041         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1041         127.0.0.1:1040         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1042         127.0.0.1:1043         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1043         127.0.0.1:1042         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1044         127.0.0.1:1045         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1045         127.0.0.1:1044         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1046         127.0.0.1:1047         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1047         127.0.0.1:1046         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1048         127.0.0.1:1049         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1049         127.0.0.1:1048         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1061         127.0.0.1:1062         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1062         127.0.0.1:1061         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:1430         127.0.0.1:1431         ESTABLISHED     2208
+  [hMailServer.exe]
+
+  TCP    127.0.0.1:1431         127.0.0.1:1430         ESTABLISHED     2208
+  [hMailServer.exe]
+
+  TCP    127.0.0.1:3235         127.0.0.1:3306         ESTABLISHED     2208
+  [hMailServer.exe]
+
+  TCP    127.0.0.1:3236         127.0.0.1:3306         ESTABLISHED     2208
+  [hMailServer.exe]
+
+  TCP    127.0.0.1:3237         127.0.0.1:3306         ESTABLISHED     2208
+  [hMailServer.exe]
+
+  TCP    127.0.0.1:3239         127.0.0.1:3306         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:3249         127.0.0.1:3306         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:3250         127.0.0.1:3306         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:3251         127.0.0.1:3306         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:3257         127.0.0.1:3306         ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    127.0.0.1:3306         127.0.0.1:3251         ESTABLISHED     1480
+  [mysqld1.exe]
+
+  TCP    127.0.0.1:3306         127.0.0.1:3237         ESTABLISHED     1480
+  [mysqld1.exe]
+
+  TCP    127.0.0.1:3306         127.0.0.1:3250         ESTABLISHED     1480
+  [mysqld1.exe]
+
+  TCP    127.0.0.1:3306         127.0.0.1:3235         ESTABLISHED     1480
+  [mysqld1.exe]
+
+  TCP    127.0.0.1:3306         127.0.0.1:3239         ESTABLISHED     1480
+  [mysqld1.exe]
+
+  TCP    127.0.0.1:3306         127.0.0.1:4244         ESTABLISHED     1480
+  [mysqld1.exe]
+
+  TCP    127.0.0.1:3306         127.0.0.1:3236         ESTABLISHED     1480
+  [mysqld1.exe]
+
+  TCP    127.0.0.1:3306         127.0.0.1:3257         ESTABLISHED     1480
+  [mysqld1.exe]
+
+  TCP    127.0.0.1:3306         127.0.0.1:3249         ESTABLISHED     1480
+  [mysqld1.exe]
+
+  TCP    127.0.0.1:3306         127.0.0.1:1025         ESTABLISHED     1480
+  [mysqld1.exe]
+
+  TCP    127.0.0.1:4244         127.0.0.1:3306         ESTABLISHED     2208
+  [hMailServer.exe]
+
+  TCP    192.168.1.3:143        192.168.1.85:49674     ESTABLISHED     2208
+  [hMailServer.exe]
+
+  TCP    192.168.1.3:143        192.168.1.85:49639     ESTABLISHED     2208
+  [hMailServer.exe]
+
+  TCP    192.168.1.3:3389       192.168.1.173:49303    ESTABLISHED     1236
+  -- unknown component(s) --
+  [svchost.exe]
+
+  TCP    192.168.1.3:5222       58.69.224.245:49733    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       58.69.224.245:49242    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       58.69.224.245:49248    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       58.69.224.245:49237    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       58.69.224.245:50024    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       58.69.224.245:50735    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       58.69.224.245:60231    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       180.190.242.192:49202  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       180.190.242.192:29113  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       180.190.242.192:26503  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       180.190.242.192:51392  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       180.190.242.192:59130  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       180.190.242.192:26497  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       180.190.242.192:54400  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       180.190.242.192:49170  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       180.190.242.192:49900  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.186:57155    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.149:60487    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.140:63307    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.223:54271    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.118:52867    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.15:49375     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.219:50028    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.12:50056     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.57:49256     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.211:49248    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.37:49464     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.162:49252    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.163:49388    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.237:58008    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.129:63544    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.67:49340     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.231:49265    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.35:49217     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.25:49657     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.196:49581    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.24:49341     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.154:53797    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.41:53641     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.76:59533     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.224:61501    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.157:62137    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.42:49233     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.22:50001     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.63:49373     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.167:49293    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.222:49315    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.20:49291     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.183:50524    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.92:51576     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.181:49370    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.89:49319     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.218:49254    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.194:49222    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.226:49238    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.177:51364    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.195:55762    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.237:58010    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.48:59918     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.153:49639    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.158:62214    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.238:49315    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.182:49239    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.31:50227     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.65:49387     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.132:49583    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.191:49411    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.44:49595     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.75:52451     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.141:49252    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.94:62962     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.175:59214    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.236:49690    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.135:49278    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.40:49440     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.39:49300     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.54:49743     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.45:49286     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.100:49258    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.160:50279    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.136:49249    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.147:49413    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.130:52073    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.148:61761    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.144:49482    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.29:49237     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.43:49995     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.72:49273     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.155:61037    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.244:49282    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.87:49286     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.159:49430    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.185:50398    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.51:50743     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.28:49299     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.27:49335     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.47:54151     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.56:54275     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.33:58191     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.70:49247     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.142:64251    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.234:49231    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.117:61349    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.99:49496     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.112:49252    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.128:49540    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.245:49248    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.69:52896     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.202:54684    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.193:59392    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.189:64816    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.85:49235     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.86:49967     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.77:49491     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.184:49225    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.26:49421     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.225:49265    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.84:49477     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.126:49533    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.115:49273    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.121:49249    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.229:52065    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.228:60629    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.203:62873    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.113:49349    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.34:49457     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.58:50806     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.66:50177     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.173:62962    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.134:49246    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.214:50462    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.204:49446    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.227:49322    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.23:49386     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.73:49826     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.156:49238    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.114:49278    ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       192.168.1.80:49312     ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:64190  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:49262  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:49501  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:58412  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:49271  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:50869  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:50949  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:49404  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:49368  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:64058  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:49577  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:49217  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:50457  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:54010  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       202.137.121.159:49199  ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:57128   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:56715   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:63748   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:34601   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:23269   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:46281   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:49900   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:29286   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:49885   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:49606   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:30360   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:15882   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:49839   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:56287   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:49495   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:50176   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:5222       222.127.49.104:58023   ESTABLISHED     868
+  [openfire-service.exe]
+
+  TCP    192.168.1.3:110        180.190.242.192:62185  TIME_WAIT       0
+  TCP    192.168.1.3:110        180.190.242.192:32223  TIME_WAIT       0
+  TCP    192.168.1.3:110        180.190.242.192:49528  TIME_WAIT       0
+  TCP    192.168.1.3:110        180.190.242.192:55690  TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.63:50965     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.204:50330    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.37:50230     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.195:58542    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.40:50417     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.58:52129     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.181:50599    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.154:54531    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.195:58463    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.204:50322    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.63:50961     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.76:60782     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.94:64758     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.218:50915    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.25:51227     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.154:54535    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.144:50419    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.44:58295     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.144:50423    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.40:50422     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.87:50586     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.226:49646    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.160:52421    TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.58:52140     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.87:50584     TIME_WAIT       0
+  TCP    192.168.1.3:110        192.168.1.147:49848    TIME_WAIT       0
+  TCP    192.168.1.3:110        202.137.121.159:50432  TIME_WAIT       0
+  TCP    192.168.1.3:110        202.137.121.159:64666  TIME_WAIT       0
+  TCP    192.168.1.3:110        202.137.121.159:50116  TIME_WAIT       0
+  TCP    192.168.1.3:110        222.127.49.104:39339   TIME_WAIT       0
+  TCP    192.168.1.3:110        222.127.49.104:57469   TIME_WAIT       0
+  TCP    192.168.1.3:110        222.127.49.104:58410   TIME_WAIT       0
+  TCP    192.168.1.3:110        222.127.49.104:58408   TIME_WAIT       0
+  UDP    0.0.0.0:500            *:*                                    1056
+  [lsass.exe]
+
+  UDP    0.0.0.0:4500           *:*                                    1056
+  [lsass.exe]
+
+  UDP    0.0.0.0:445            *:*                                    4
+  [System]
+
+  UDP    127.0.0.1:1900         *:*                                    1820
+  c:\windows\system32\WS2_32.dll
+  c:\windows\system32\ssdpsrv.dll
+  C:\WINDOWS\system32\ADVAPI32.dll
+  C:\WINDOWS\system32\kernel32.dll
+  [svchost.exe]
+
+  UDP    127.0.0.1:123          *:*                                    1512
+  c:\windows\system32\WS2_32.dll
+  c:\windows\system32\w32time.dll
+  ntdll.dll
+  C:\WINDOWS\system32\kernel32.dll
+  [svchost.exe]
+
+  UDP    192.168.1.3:137        *:*                                    4
+  [System]
+
+  UDP    192.168.1.3:1900       *:*                                    1820
+  c:\windows\system32\WS2_32.dll
+  c:\windows\system32\ssdpsrv.dll
+  C:\WINDOWS\system32\ADVAPI32.dll
+  C:\WINDOWS\system32\kernel32.dll
+  [svchost.exe]
+
+  UDP    192.168.1.3:138        *:*                                    4
+  [System]
+
+  UDP    192.168.1.3:123        *:*                                    1512
+  c:\windows\system32\WS2_32.dll
+  c:\windows\system32\w32time.dll
+  ntdll.dll
+  C:\WINDOWS\system32\kernel32.dll
+  [svchost.exe]
+
