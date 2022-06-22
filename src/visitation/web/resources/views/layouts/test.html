@@ -1,0 +1,64 @@
+<ul> 
+    <li>Patient Registry -sub 
+        <ul> 
+            <li>Master Files </li> 
+            <li>Transactions </li> 
+            <li>Patient Registry 123 </li> 
+            <li>Reports </li>
+        </ul>
+    </li> 
+    <li>System -sub 
+        <ul> 
+            <li>Tools </li> 
+            <li>Security </li> 
+            <li>Settings </li> 
+            <li>Modules -sub 
+                <ul> 
+                    <li>Module </li> 
+                    <li>Module Group </li> 
+                </ul> 
+            </li> 
+        </ul> 
+    </li> 
+</ul>
+
+<h3>Expected</h3>
+
+ <!-- Start UL -->
+<li class='nav-item has-submenu'> 
+    <a class='nav-link is_accordion' href='#'>Patient Registry</a>
+    <ul class='submenu collapse'>
+<!-- END UL -->
+<!-- LI -->     <li class='nav-item'><a class='nav-link' href='#'>Master Files</a></li> <!--End UL-->> 
+                <li class='nav-item'><a class='nav-link' href='#'>Transactions</a></li>
+                <li class='nav-item'><a class='nav-link' href='#'>Patient Registry 123</a></li>
+                <li class='nav-item'><a class='nav-link' href='#'>Reports</a></li>
+<!-- Start /UL --> 
+    </ul> 
+</li>
+<!-- End /UL -->
+
+ <!-- Start UL -->
+<li class='nav-item has-submenu'>
+    <a class='nav-link is_accordion' href='#'>System</a>
+    <ul class='submenu collapse'>
+<!-- END UL -->
+        <li class='nav-item'><a class='nav-link' href='#'>Tools</a></li>
+        <li class='nav-item'><a class='nav-link' href='#'>Security</a></li>
+        <li class='nav-item'><a class='nav-link' href='#'>Settings</a></li>
+         <!-- Start UL -->
+        <li class='nav-item has-submenu'>
+            <a class='nav-link is_accordion' href='#'>Modules</a>
+            <ul class='submenu collapse'>
+        <!-- END UL -->
+                <li class='nav-item'><a class='nav-link' href='#'>Module</a></li>
+                <li class='nav-item'><a class='nav-link' href='#'>Module Group</a></li>
+        <!-- Start /UL-->>
+            </ul>
+        </li>
+        <!-- End /UL -->>
+<!-- Start /UL --> 
+    </ul>
+</li>
+<!-- End /UL -->
+

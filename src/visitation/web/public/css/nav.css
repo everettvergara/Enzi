@@ -1,0 +1,45 @@
+
+
+#test .dropdown-toggle{
+    position: relative;
+}
+#test .dropdown .dropdown-menu{
+    position: relative !important;
+    border: 0;
+    width: 100%;
+    padding-left: 15px;
+    transform: none !important;
+}
+
+.sidebar li .submenu{ 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	padding-left: 1rem; 
+	padding-right: 1rem;
+}
+
+.nav-item > .nav-link{
+    font-size: 0.8rem;
+    line-height: 1;
+}
+
+.is_accordion::after{
+    font-family: "Font Awesome 5 Free";
+    margin-left: 0.255em;
+    font-weight: 900;
+    content: "\f0d7";
+}
+
+.fl-wrapper .sidebar ul li a:hover {
+    background-color: #6c757d;
+}
+
+.navbar-toggler:focus {
+    box-shadow:none;
+}
+
+.navbar-toggler:hover {
+    background-color: #333;
+}
+
