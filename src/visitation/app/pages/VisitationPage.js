@@ -16,6 +16,7 @@ import dateFormat, { masks } from "dateformat";
 import DatePickerPlus from '../components/DatePicker';
 import VisitationController from '../controller/visitation';
 import DatePicker from 'react-native-date-picker';
+import Config from '../config/config';
 // import DatePicker from 'react-native-date-picker'
 
 const VisitationPage = ({ navigation, route }) => {
@@ -58,45 +59,51 @@ const VisitationPage = ({ navigation, route }) => {
    const [is_negative_time_opened, open_negative_time] = React.useState(false);
 
    React.useEffect(() => {
-      VisitationController.get_visitation_entry(route.params.visitation_detail_id)
-        .then((json) => {
+      VisitationController.get_visitation_entry(route.params.visitation_detail_id, Config.current_user.api_token)
+         .then((json) => {
 
-            set_customer_name(json.name);
-            set_account_no(json.account_no);
-            set_batch_code(json.batch_code);
-            set_landline_no(json.landline_no);
-            set_mobile_nos(json.mobile_nos);
-            set_la(json.LA);
-            set_visited_by(json.visited_by);
-            set_date_visited(json.date_visited ? new Date(json.date_visited): new Date());
+            let data = json.data;
 
-            if (json.right_party != false) {
+            console.log(json)
+
+            set_customer_name(data.name);
+            set_account_no(data.account_no);
+            // set_batch_code(json.batch_code);
+            // set_landline_no(json.landline_no);
+            // set_mobile_nos(json.mobile_nos);
+            // set_la(json.LA);
+            // set_visited_by(json.visited_by);
+            set_date_visited(data.date_visited ? new Date(data.date_visited): new Date());
+
+            set_right_party_printed_name(data.name);
+
+            if (data.right_party != false) {
                setTabActive(0);
-               set_right_party_printed_name(json.right_party.printed_name);
-               set_right_party_time(new Date(json.right_party.time));
-               set_right_party_mobile_no(json.right_party.mobile_no);
-               set_right_party_landline_no(json.right_party.landline_no);
-               set_right_party_email_add(json.right_party.email_add);
-               set_right_party_rfd(json.right_party.rfd);
-               set_right_party_ptp_date(new Date(json.right_party.ptp_date));
-               set_right_party_ptp_amount(json.right_party.ptp_amount.toString());
-               set_right_party_best_time_to_call(new Date(json.right_party.best_time_to_call));
+               set_right_party_printed_name(data.right_party.printed_name);
+               set_right_party_time(new Date(data.right_party.time));
+               set_right_party_mobile_no(data.right_party.mobile_no);
+               set_right_party_landline_no(data.right_party.landline_no);
+               set_right_party_email_add(data.right_party.email_address);
+               set_right_party_rfd(data.right_party.reason_for_default);
+               set_right_party_ptp_date(new Date(data.right_party.ptp_date));
+               set_right_party_ptp_amount(data.right_party.ptp_amount.toString());
+               set_right_party_best_time_to_call(new Date(data.right_party.best_time_to_call));
             }
-            else if (json.third_party != false) {
+            else if (data.third_party != false) {
                setTabActive(1);
-               set_third_party_printed_name(json.right_party.printed_name);
-               set_third_party_relationship(new Date(json.right_party.time));
-               set_third_party_mobile_number(json.right_party.mobile_no);
-               set_third_party_landline_no(json.right_party.landline_no);
-               set_third_party_whereabouts(json.right_party.email_add);
-               set_third_party_work(json.right_party.rfd);
-               set_third_party_work_address(new Date(json.right_party.ptp_date));
+               set_third_party_printed_name(data.third_party.printed_name);
+               set_third_party_relationship(data.third_party.relationship);
+               set_third_party_mobile_number(data.third_party.mobile_no);
+               set_third_party_landline_no(data.third_party.landline_no);
+               set_third_party_whereabouts(data.third_party.whereabouts);
+               set_third_party_work(data.third_party.work);
+               set_third_party_work_address(new Date(data.third_party.work_address));
             }
-            else if (json.negative != false) {
+            else if (data.negative != false) {
                setTabActive(2);
-               set_negative_reason(json.negative.reason);
-               set_negative_source_of_information(json.negative.source_of_information);
-               set_negative_time(new Date(json.negative.time));
+               set_negative_reason(data.negative.reason);
+               set_negative_source_of_information(data.negative.source_of_information);
+               set_negative_time(new Date(data.negative.time));
             }
         })
    }, [route])
@@ -107,14 +114,13 @@ const VisitationPage = ({ navigation, route }) => {
       const data = {
          id: route.params.visitation_detail_id,
          date_visited: dateFormat(date_visited, "yyyy-mm-dd"),
-         is_visited: true,
          right_party: activeTab == 0 ? {
             printed_name: right_party_printed_name,
             time: dateFormat(right_party_time, "yyyy-mm-dd HH:MM"),
             mobile_no: right_party_mobile_no,
             landline_no: right_party_landline_no,
-            email_add: right_party_email_add,
-            rfd: right_party_rfd,
+            email_address: right_party_email_add,
+            reason_for_default: right_party_rfd,
             ptp_date: dateFormat(right_party_ptp_date, "yyyy-mm-dd"),
             ptp_amount: parseFloat(right_party_ptp_amount),
             best_time_to_call: dateFormat(right_party_best_time_to_call, "yyyy-mm-dd HH:MM"),
@@ -122,7 +128,7 @@ const VisitationPage = ({ navigation, route }) => {
          third_party: activeTab == 1 ? {
             printed_name: third_party_printed_name,
             relationship: third_party_relationship,
-            mobile_number: third_party_mobile_number,
+            mobile_no: third_party_mobile_number,
             landline_no: third_party_landline_no,
             whereabouts: third_party_whereabouts,
             work: third_party_work,
@@ -140,7 +146,7 @@ const VisitationPage = ({ navigation, route }) => {
          visited_by: visited_by
       }
 
-      VisitationController.update_visitation_entry(data)
+      VisitationController.update_visitation_entry(data, Config.current_user.api_token)
       .then((t) => {
          console.log(t)
          navigation.pop();

@@ -6,6 +6,9 @@ import DatePicker from 'react-native-date-picker'
 import dateFormat, { masks } from "dateformat";
 import IconButton from '../components/IconButton';
 
+
+
+
 import {
    SafeAreaView,
    ScrollView,
@@ -22,6 +25,7 @@ import {
    View,
 } from 'react-native';
 import VisitationController from '../controller/visitation';
+import Config from '../config/config';
 // import Dropdown from '../components/Dropdown';
 
 
@@ -42,9 +46,10 @@ const VisitationListPage = ({ navigation }) => {
       // let date_from = dateFormat(dateFrom, "yyyy-mm-dd");
       // let date_to = dateFormat(dateTo, "yyyy-mm-dd");
 
-      VisitationController.get_visitations_by_date(dateFormat(dateFrom, "yyyy-mm-dd"), dateFormat(dateTo, "yyyy-mm-dd"))
+      VisitationController.get_visitations_by_date_range(dateFormat(dateFrom, "yyyy-mm-dd"), dateFormat(dateTo, "yyyy-mm-dd"), Config.current_user.api_token)
       .then((json) => {
-         set_visitations(json)
+         var data = json.data;
+         set_visitations(data);
       })
    }
  

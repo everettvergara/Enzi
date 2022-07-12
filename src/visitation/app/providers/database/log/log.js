@@ -56,9 +56,11 @@ export default class LogDatabaseProvider {
    }
 
    static insert(record) {
-      let query_object = new QueryObject;
-      query_object.create(DeviceLog.schema.name, record);
-      DatabaseProvider.instance.save_to_db(query_object);
+      DatabaseProvider.execute([{
+         table: DeviceLog,
+         record: record,
+         mode: "create"
+      }]);
    }
 
    static update_uploaded(log_id, is_uploaded) {

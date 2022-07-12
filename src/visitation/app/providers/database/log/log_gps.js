@@ -10,7 +10,7 @@ export default class GPSLogDatabaseProvider {
    }
 
    static get_by_log_id(log_id) {
-      return DatabaseProvider.instance.retrieve({
+      return DatabaseProvider.get({
          table: GPSLog.schema.name,
          where: [{
             condition: "log_id == $0",
@@ -21,7 +21,7 @@ export default class GPSLogDatabaseProvider {
 
    static get(gps_log_id) {
 
-      let logs = DatabaseProvider.instance.retrieve({ 
+      let logs = DatabaseProvider.get({ 
          table: GPSLog.schema.name, 
          where: [
             { 
@@ -35,40 +35,54 @@ export default class GPSLogDatabaseProvider {
    }
 
    static insert(record) {
-      let query_object = new QueryObject;
-      query_object.create(GPSLog.schema.name, record);
-      DatabaseProvider.instance.save_to_db(query_object);
+      DatabaseProvider.execute([{
+         table: GPSLog,
+         record: record,
+         mode: "create"
+      }]);
    }
 
-   static update_address(gps_log_id, address) {
-      let query_object = new QueryObject;
-      let gps_log = GPSLogDatabaseProvider.get(gps_log_id)
-      query_object.update(gps_log, "address", address);
-      DatabaseProvider.instance.save_to_db(query_object);
+   static update_address(id, address) {
+      DatabaseProvider.execute([{
+         table: GPSLog,
+         record: { id: id, address: address },
+         mode: "update"
+      }]);
    }
 
-   static delete(gps_log_id) {
-      let query_object = new QueryObject;
-      let gps_log = GPSLogDatabaseProvider.get(gps_log_id)
-      query_object.delete(gps_log);
-      DatabaseProvider.instance.save_to_db(query_object);
+   static delete(id) {
+      DatabaseProvider.execute([{
+         table: GPSLog,
+         record: { id: id },
+         mode: "delete"
+      }]);
    }
 
    static delete_by_log_id(log_id) {
-      let query_object = new QueryObject;
+      let query_objects = [];
+
       let gps_logs = GPSLogDatabaseProvider.get_by_log_id(log_id);
       gps_logs.forEach(gps_log => {
-         query_object.delete(gps_log);
+         query_objects.push({
+            table: GPSLog,
+            record: { id: gps_log.id },
+            mode: "delete"
+         });
       });
-      DatabaseProvider.instance.save_to_db(query_object);
+      DatabaseProvider.execute(query_objects);
    }
 
    static delete_all() {
-      let query_object = new QueryObject;
+      let query_objects = [];
+
       let gps_logs = GPSLogDatabaseProvider.get_all();
       gps_logs.forEach(gps_log => {
-         query_object.delete(gps_log);
+         query_objects.push({
+            table: GPSLog,
+            record: { id: gps_log.id },
+            mode: "delete"
+         });
       });
-      DatabaseProvider.instance.save_to_db();
+      DatabaseProvider.execute(query_objects);
    }
 }

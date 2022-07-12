@@ -41,6 +41,15 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+
+        /**
+        * update the driver from token to passport
+        */
+        'api' => [
+            'driver' => 'passport',
+            'provider' => 'users',
+            'hash' => false,
+        ],
     ],
 
     /*
@@ -72,8 +81,8 @@ return [
         // ],
 
         'users' => [
-            'driver' => 'database',
-            'table' => 'tb_sys_mf_user',
+            'driver' => 'eloquent',
+            'model' => App\Models\sys_user::class,
         ],
     ],
 

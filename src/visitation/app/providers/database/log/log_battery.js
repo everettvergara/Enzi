@@ -35,9 +35,11 @@ export default class BatteryLogDatabaseProvider {
    }
 
    static insert(record) {
-      let query_object = new QueryObject;
-      query_object.create(BatteryLog.schema.name, record);
-      DatabaseProvider.instance.save_to_db(query_object);
+      DatabaseProvider.execute([{
+         table: BatteryLog,
+         record: record,
+         mode: "create"
+      }]);
    }
 
    static delete(battery_log_id) {

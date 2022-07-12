@@ -15,20 +15,22 @@ import {
 } from 'react-native';
 import VisitationController from '../controller/visitation';
 import { useFocusEffect } from '@react-navigation/native';
+import Config from '../config/config';
 // import OrderPage from './OrderPage';
 
 const CoveragePlan = ({ item, navigation }) => {
-   const [isOpened, setOpen] = React.useState(true);
-   return (
-     <View key={item.id} style={{ borderBottomColor: 'grey', flexDirection: "row", alignItems: "center", borderBottomWidth: 1, padding: 4 }}>
-       <FontAwesome name='arrows' size={12} style={{ marginRight: 10 }}></FontAwesome>
-       <View style={{ flex: 1 }}>
-         <Text style={{ fontWeight: 'bold', color: item.is_visited?"green":"red", fontSize: 12 }}>{item.name}</Text>
-         <Text style={{ fontSize: 12 }}>{item.address}</Text>
-       </View>
-       <IconButton icon="pencil" onPress={() => { navigation.push('Visitation Entry', { visitation_detail_id: item.id });  }} iconSize={10} width={30}></IconButton>
-     </View>
-   )
+  const [isOpened, setOpen] = React.useState(true);
+  console.log(item, "dko")
+  return (
+    <View key={item.id} style={{ borderBottomColor: 'grey', flexDirection: "row", alignItems: "center", borderBottomWidth: 1, padding: 4 }}>
+      <FontAwesome name='arrows' size={12} style={{ marginRight: 10 }}></FontAwesome>
+      <View style={{ flex: 1 }}>
+        <Text style={{ fontWeight: 'bold', color: item.is_visited?"green":"red", fontSize: 12 }}>{item.name}</Text>
+        <Text style={{ fontSize: 12 }}>{item.address}</Text>
+      </View>
+      <IconButton icon="pencil" onPress={() => { navigation.push('Visitation Entry', { visitation_detail_id: item.id });  }} iconSize={10} width={30}></IconButton>
+    </View>
+  )
 }
 
 
@@ -49,15 +51,16 @@ const VisitationSubListPage = ({navigation, route}) => {
    }, [route]);
 
    useFocusEffect(React.useCallback(() => {
-      VisitationController.get_visitation(route.params.visitation_id)
+      VisitationController.get_visitation(route.params.visitation_id, Config.current_user.api_token)
       .then((json) => {
-        console.log(json)
-        set_visitation_id(json.id);
-        set_visitation_date(json.date);
-        set_visitation_remarks(json.remarks);
-        set_visitation_details(json.visitation_details);
+        var data = json.data;
+        console.log(data)
+        set_visitation_id(data.id);
+        set_visitation_date(data.date);
+        set_visitation_remarks(data.remarks);
+        set_visitation_details(data.visitation_details);
       })
-   }));
+   }, []));
  
    return (
      <ScrollView>

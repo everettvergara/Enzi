@@ -22,6 +22,8 @@ export default class ServiceLogController {
       service_log_data.cellular_generation = cellular_generation;
       service_log_data.wifi_strength = strength;
 
+      console.log(service_log_data, "dsklfh")
+
       ServiceLogDatabaseProvider.insert(service_log_data);
       
       return service_log_data.id;

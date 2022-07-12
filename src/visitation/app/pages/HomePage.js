@@ -5,49 +5,38 @@ import dateFormat, { masks } from "dateformat";
 import IconButton from '../components/IconButton';
 
 import {
+  SafeAreaView,
   ScrollView,
   Text,
+  TouchableOpacity,
   View,
 } from 'react-native';
 import VisitationController from '../controller/visitation';
 import { useFocusEffect } from '@react-navigation/native';
+import Config from '../config/config';
 
-const CoveragePlan = ({ item, navigation }) => {
+import Draggable from 'react-native-draggable';
+import DraggableFlatList, { ScaleDecorator } from 'react-native-draggable-flatlist'
+import { FlatList } from 'react-native-gesture-handler';
+
+const CoveragePlan = ({ item, navigation, onLongPress }) => {
   const [isOpened, setOpen] = React.useState(true);
   return (
-    <View key={item.id} style={{ borderBottomColor: 'grey', flexDirection: "row", alignItems: "center", borderBottomWidth: 1, padding: 4 }}>
-      <FontAwesome name='arrows' size={12} style={{ marginRight: 10 }}></FontAwesome>
-      <View style={{ flex: 1 }}>
-        <Text style={{ fontWeight: 'bold', color: item.is_visited?"green":"red", fontSize: 12 }}>{item.name}</Text>
-        <Text style={{ fontSize: 12 }}>{item.address}</Text>
+    <TouchableOpacity onLongPress={onLongPress}>
+      <View key={item.id} style={{ borderBottomColor: 'grey', flexDirection: "row", alignItems: "center", borderBottomWidth: 1, padding: 4 }}>
+        <FontAwesome name='arrows' size={12} style={{ marginRight: 10 }}></FontAwesome>
+        <View style={{ flex: 1 }}>
+          <Text style={{ fontWeight: 'bold', color: item.is_visited?"green":"red", fontSize: 12 }}>{item.name}</Text>
+          <Text style={{ fontSize: 12 }}>{item.address}</Text>
+        </View>
+        <IconButton icon="pencil" onPress={() => { navigation.push('Visitation Entry', { visitation_detail_id: item.id });  }} iconSize={10} width={30}></IconButton>
       </View>
-      <IconButton icon="pencil" onPress={() => { navigation.push('Visitation Entry', { visitation_detail_id: item.id });  }} iconSize={10} width={30}></IconButton>
-    </View>
+    </TouchableOpacity>
+    
   )
 }
 
 const HomePage = ({navigation, route}) => {
-
-   let customerData = [
-     {
-       id: 1, 
-       name: "Everett Vergara", 
-       address: "Valenzuela City",
-       is_visited: true
-     },
-     {
-       id: 2, 
-       name: "Rae Pambid", 
-       address: "Quezon City",
-       is_visited: false
-     },
-     {
-       id: 3, 
-       name: "Asher Tutanes", 
-       address: "Pasig City",
-       is_visited: true
-     }
-  ]
 
    const [asofDate, searchByDate] = React.useState(new Date());
  
@@ -58,29 +47,40 @@ const HomePage = ({navigation, route}) => {
   const [visitation_remarks, set_visitation_remarks] = React.useState("-- No visitations for today yet --");
   const [visitation_details, set_visitation_details] = React.useState([]);
 
-   React.useEffect(() => {
-    
+  const [full_name, set_full_name] = React.useState("");
+
+  React.useEffect(() => {
+    Config.current_user.full_name = Config.current_user.first_name + " " + Config.current_user.last_name;
+    set_full_name(Config.current_user.full_name);
   }, [route])
 
   useFocusEffect(React.useCallback(() => {
-    VisitationController.get_visitations_by_date(date_today, date_today)
+    console.log(Config.current_user.api_token)
+    VisitationController.get_visitations_by_date_range(date_today, date_today, Config.current_user.api_token)
     .then((json) => {
-      console.log(json)
-      json = json[0];
 
-      if (json) {
-        set_visitation_remarks(json.remarks);
-        set_visitation_details(json.visitation_details);
-      } 
+      data = json.data[0];
+
+      console.log(data, "s")
+     
+      // json = json[0];
+
+      // if (json) {
+      //   set_visitation_remarks(json.remarks);
+      //   set_visitation_details(json.visitation_details);
+      // }  
+
+      set_visitation_remarks(data.remarks);
+      set_visitation_details(data.visitation_details);
       
     })
   }, []));
  
    return (
-     <ScrollView>      
+     <SafeAreaView style={{flex:1}}>      
        <Text style={{ fontSize: 14, textAlign: "center", color: "black" }}>
           <Text>Welcome, </Text>
-          <Text style={{ fontWeight: 'bold' }}>Benedict</Text>
+          <Text style={{ fontWeight: 'bold' }}>{ full_name }</Text>
          
        </Text>
        
@@ -128,16 +128,33 @@ const HomePage = ({navigation, route}) => {
             </View>
          </View>
          
-         
+         <DraggableFlatList
+          data={visitation_details}
+          renderItem={({ item, drag }) => {
+            return (<ScaleDecorator>
+              <CoveragePlan item={item} onLongPress={drag} navigation={navigation}></CoveragePlan>
+            </ScaleDecorator>)
+          }}
+          keyExtractor={(item) => item.id}
+          // ListHeaderComponent={() => <Text></Text>}
+          // ListFooterComponent={() => <Text></Text>}
+         >
+
+         </DraggableFlatList>
  
          
-         {
+         {/* {
            visitation_details.map((item) => {
-             return <CoveragePlan item={item} navigation={navigation} key={item.id}></CoveragePlan>            
+             return (
+                <Draggable key={item.id}>
+                  <CoveragePlan item={item} navigation={navigation}></CoveragePlan>    
+                </Draggable>
+             )
+                  
            })
-         }
+         } */}
        </View>
-     </ScrollView>
+     </SafeAreaView>
    );
 }
 

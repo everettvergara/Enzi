@@ -30,9 +30,11 @@ export default class ServiceLogDatabaseProvider {
    }
 
    static insert(record) {
-      let query_object = new QueryObject;
-      query_object.create(ServiceLog.schema.name, record);
-      DatabaseProvider.instance.save_to_db(query_object);
+      DatabaseProvider.execute([{
+         table: ServiceLog,
+         record: record,
+         mode: "create"
+      }]);
    }
 
    static delete(service_log_id) {

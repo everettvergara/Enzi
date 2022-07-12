@@ -2,42 +2,46 @@ import Config from "../config/config";
 
 export default class VisitationController {
 
-   static async get_visitations_by_date(date_from, date_to) {
-      return await fetch(Config.SERVER_URL + "/get_visitations_by_date.php?date_from=" + date_from + "&date_to=" + date_to, {
+   static async get_visitations_by_date_range(date_from, date_to, token) {
+      return await fetch(Config.SERVER_URL + "/visitation/get_by_date_range?date_from=" + date_from + "&date_to=" + date_to, {
          method: 'GET',
          headers: {
-            'Accept': 'application/json'
+            'Accept': 'application/json',
+            'Authorization': 'Bearer ' + token
+         }
+      })
+         .then((response) => response.json())
+   } 
+
+   static async get_visitation(id, token) {
+      return await fetch(Config.SERVER_URL + "/visitation/get?id=" + id, {
+         method: 'GET',
+         headers: {
+            'Accept': 'application/json',
+            'Authorization': 'Bearer ' + token
          }
       })
          .then((response) => response.json())
    }
 
-   static async get_visitation(id) {
-      return await fetch(Config.SERVER_URL + "/get_visitation.php?id=" + id, {
+   static async get_visitation_entry(id, token) {
+      return await fetch(Config.SERVER_URL + "/visitation/get_entry?id=" + id, {
          method: 'GET',
          headers: {
-            'Accept': 'application/json'
+            'Accept': 'application/json',
+            'Authorization': 'Bearer ' + token
          }
       })
          .then((response) => response.json())
    }
 
-   static async get_visitation_entry(id) {
-      return await fetch(Config.SERVER_URL + "/get_visitation_entry.php?id=" + id, {
-         method: 'GET',
-         headers: {
-            'Accept': 'application/json'
-         }
-      })
-         .then((response) => response.json())
-   }
-
-   static async update_visitation_entry(data) {
-      return await fetch(Config.SERVER_URL + "/update_visitation_entry.php", {
+   static async update_visitation_entry(data, token) {
+      return await fetch(Config.SERVER_URL + "/visitation/update_entry", {
          method: 'POST',
          headers: {
             'Accept': 'application/json',
-            'Content-type': "application/json"
+            'Content-type': "application/json",
+            'Authorization': 'Bearer ' + token
          },
          body: JSON.stringify(data)
       })

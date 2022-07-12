@@ -5608,7 +5608,19 @@
   "resolved" "https://registry.npmjs.org/react-native-device-info/-/react-native-device-info-8.7.0.tgz"
   "version" "8.7.0"
 
-"react-native-gesture-handler@*", "react-native-gesture-handler@^2.4.0", "react-native-gesture-handler@>= 1.0.0":
+"react-native-draggable-flatlist@^3.1.2":
+  "integrity" "sha512-cqBR+lZktTqHY/J7V0aq+TZNkuqeILxwZ5bBXKndokwH4qvZl7ifijM7LlfWhfhU1/pzjketTsX7P2zyojfAaQ=="
+  "resolved" "https://registry.npmjs.org/react-native-draggable-flatlist/-/react-native-draggable-flatlist-3.1.2.tgz"
+  "version" "3.1.2"
+
+"react-native-draggable@^3.3.0":
+  "integrity" "sha512-aU20CaKBmzXrwE9eTJZ+GDOr52mXLchg5Vydbx5rz8nYXlN+ppHIoTPgyXduyWNwpZ/DR6tyFtMwdgUHpuN6oA=="
+  "resolved" "https://registry.npmjs.org/react-native-draggable/-/react-native-draggable-3.3.0.tgz"
+  "version" "3.3.0"
+  dependencies:
+    "prop-types" "^15.7.2"
+
+"react-native-gesture-handler@*", "react-native-gesture-handler@^2.4.0", "react-native-gesture-handler@>= 1.0.0", "react-native-gesture-handler@>=1.10.0":
   "integrity" "sha512-8Aao3iGAmlpTbazEt8AfTdEXiPL052Psv8VztKCdvEUW+rCmUso/2pdWCzmqwG0XQdi9ojYW9lg6A7bpaCK7EA=="
   "resolved" "https://registry.npmjs.org/react-native-gesture-handler/-/react-native-gesture-handler-2.4.0.tgz"
   "version" "2.4.0"
@@ -5624,7 +5636,7 @@
   "resolved" "https://registry.npmjs.org/react-native-location/-/react-native-location-2.5.0.tgz"
   "version" "2.5.0"
 
-"react-native-reanimated@^2.2.4", "react-native-reanimated@>= 1.0.0":
+"react-native-reanimated@^2.2.4", "react-native-reanimated@>= 1.0.0", "react-native-reanimated@>=2.2.0":
   "integrity" "sha512-Nn648MfEEnTCEiWsl1YmfkojiLyV0NMY0EiRdDRbZNfJVfxBuyqhCxI/4Jd7aBi162qpgf8XK2mByYgvF4zLrQ=="
   "resolved" "https://registry.npmjs.org/react-native-reanimated/-/react-native-reanimated-2.2.4.tgz"
   "version" "2.2.4"
@@ -5668,7 +5680,7 @@
     "escape-string-regexp" "2.0.0"
     "invariant" "2.2.4"
 
-"react-native@*", "react-native@>= 0.46", "react-native@>=0.59", "react-native@>=0.66.0", "react-native@0.67.4":
+"react-native@*", "react-native@>= 0.46", "react-native@>=0.59", "react-native@>=0.64.0", "react-native@>=0.66.0", "react-native@0.67.4":
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.67.4.tgz"
   "version" "0.67.4"
   dependencies:
