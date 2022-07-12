@@ -1,0 +1,25 @@
+Login API:
+    - Copy an appropriate model for Authentication
+
+Enzi (Collection Agency)
+
+Contract Master (contract_master: cm_id, account_number, account_name)
+List of all account holders with bad debts
+
+Bank (bank) 
+Client of Enzi  
+
+Bank Campaigns bank_campaign
+Logical categorization (i.e. Credit Card, Car Loan, etc...)
+
+Association of Contract Master, Bank, Bank Campaigns
+--
+select  top 10 *
+from    contract_master as a 
+
+        inner join bank_campaign as b on 
+        a.campaign_id = b.campaign_id 
+
+        inner join bank as c on 
+        b.bank_id = c.bank_id 
+where   fw = 1
