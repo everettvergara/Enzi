@@ -10,7 +10,7 @@ export default class BatteryLogDatabaseProvider {
    }
 
    static get_by_log_id(log_id) {
-      return DatabaseProvider.instance.retrieve({
+      return DatabaseProvider.get({
          table: BatteryLog.schema.name,
          where: [{
             condition: "log_id == $0",

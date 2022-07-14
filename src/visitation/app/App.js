@@ -46,6 +46,7 @@ import MapViewPage from './pages/MapViewPage';
 import UserController from './controller/user';
 import GPSService from './service/gps';
 import Config from './config/config';
+import SyncController from './controller/sync';
 
 try {
   MainController.load_database();
@@ -94,7 +95,14 @@ const LoginMainNavigation = ({ navigation }) => {
       Config.current_user = current_user;
 
       // will do synchronization later
-      //SyncController.sync(Config.current_user.code, Config.current_user.device_imei, Config.current_user.api_token);
+      SyncController.sync_sys_logs(Config.current_user.api_token)
+      .then((a) => {
+        console.log(a, "dei");
+      })
+      .catch((e) => {
+        console.log(e, "dskojf");
+        alert("Failure to synchronize");
+      })
 
       navigation.dispatch(
         StackActions.replace('Main')

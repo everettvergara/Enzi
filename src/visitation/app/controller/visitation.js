@@ -47,4 +47,15 @@ export default class VisitationController {
       })
          .then((response) => response.text())
    }
+
+   static async update_sequence(visitation_id, from, to, token) {
+      return await fetch(Config.SERVER_URL + "/visitation/update_sequence?visitation_id=" + visitation_id + "&from=" + from + "&to=" + to, {
+         method: 'GET',
+         headers: {
+            'Accept': 'application/json',
+            'Authorization': 'Bearer ' + token
+         }
+      })
+         .then((response) => response.text())
+   }
 }

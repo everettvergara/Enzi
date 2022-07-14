@@ -113,7 +113,7 @@ const VisitationPage = ({ navigation, route }) => {
    const save = () => {
       const data = {
          id: route.params.visitation_detail_id,
-         date_visited: dateFormat(date_visited, "yyyy-mm-dd"),
+         date_visited: dateFormat(date_visited, "yyyy-mm-dd HH:MM"),
          right_party: activeTab == 0 ? {
             printed_name: right_party_printed_name,
             time: dateFormat(right_party_time, "yyyy-mm-dd HH:MM"),
@@ -233,7 +233,7 @@ const VisitationPage = ({ navigation, route }) => {
             <View style={{ marginVertical: 6 }} onPress={() => open_date_visited(true)}>
                <Text style={{ fontSize: 10 }}>Date Visited</Text>
                <View style={{ fontSize: 15, borderBottomColor: "grey", borderBottomWidth: 1, flexDirection: "row" }}>
-                  <Text onPress={() => open_date_visited(true)} style={{ flex: 1, color: "black" }}>{ dateFormat(date_visited, "yyyy mmm d") }</Text>
+                  <Text onPress={() => open_date_visited(true)} style={{ flex: 1, color: "black" }}>{ dateFormat(date_visited, "yyyy mmm d hh:MM TT") }</Text>
                   <FontAwesome name='calendar' color="#0000c0" style={{ fontSize: 15 }}></FontAwesome>
                </View>
             </View>

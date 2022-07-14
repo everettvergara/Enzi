@@ -36,7 +36,11 @@ Route::post('v1/login', 'App\Http\Controllers\ApiAuthController@login');
 Route::middleware('auth:api')->group(function(){
     Route::get('v1/user', 'App\Http\Controllers\ApiAuthController@authenticatedUserDetails');
     Route::get('v1/visitation/get_by_date_range', 'App\Http\Controllers\tb_wf_tr_visitation_controller@get_by_date_range');
+    Route::get('v1/visitation/get_tracks_by_date_range', 'App\Http\Controllers\tb_wf_tr_visitation_controller@get_tracks_by_date_range');
     Route::get('v1/visitation/get', 'App\Http\Controllers\tb_wf_tr_visitation_controller@get');
     Route::get('v1/visitation/get_entry', 'App\Http\Controllers\tb_wf_tr_visitation_controller@get_entry');
     Route::post('v1/visitation/update_entry', 'App\Http\Controllers\tb_wf_tr_visitation_controller@update_entry');
+    Route::get('v1/visitation/update_sequence', 'App\Http\Controllers\tb_wf_tr_visitation_controller@update_sequence');
+    Route::post('v1/mobile_services/sync_syslogs', 'App\Http\Controllers\sync_controller_mobile_services@sync_syslogs');
+    
 });

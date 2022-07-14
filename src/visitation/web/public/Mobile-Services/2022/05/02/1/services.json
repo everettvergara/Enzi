@@ -1,1 +1,0 @@
-{"id":1,"log_time":1651455974000,"trigger_type_id":1,"user_id":1,"gps_log":{"log_id":1,"id":1,"lat":13.0289,"lng":121.0489},"battery_log":{"log_id":1,"id":1,"battery_level":100},"service_logs":[{"log_id":1,"id":1,"type_id":1,"cellular_generation":"4g","carrier":"smart","wifi_strength":"20"}]}

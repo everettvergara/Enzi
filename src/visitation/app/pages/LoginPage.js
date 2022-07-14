@@ -12,6 +12,7 @@ import GPSService from '../service/gps';
 import UserController from '../controller/user';
 import SystemSettingService from '../service/system_setting';
 import Config from '../config/config';
+import SyncController from '../controller/sync';
 
 const LoginPage = ({ navigation }) => {
 
@@ -59,15 +60,19 @@ const LoginPage = ({ navigation }) => {
 
             is_logging_in(false);
 
-            // will work on sync later
-            // SyncController.sync(Config.current_user.code, Config.current_user.device_imei, Config.current_user.api_token);
+            SyncController.sync_sys_logs(Config.current_user.api_token)
+            .then(() => {
+
+            })
+            .catch((e) => {
+              console.log(e, "dskojf");
+              alert("Failure to synchronize");
+            })
 
             navigation.dispatch(
                 StackActions.replace('Main')
             );
           }
-
-         
         })
         .catch((error) => {
           alert (error.message);

@@ -9,6 +9,24 @@ export default class LogDatabaseProvider {
       });
    }
 
+   static get_by_date_later_sorted_asc(date, n) {
+
+      return DatabaseProvider.get({
+         table: DeviceLog.schema.name,
+         where: [
+            { 
+               condition: "log_time >= $0", 
+               value: [date] 
+            },
+         ],
+         limit: n,
+         sort: { 
+            field: "log_time",
+            sorted: false
+         }
+      });
+   }
+
    static get_by_date_range(date_from, date_to, n) {
 
       return DatabaseProvider.get({
@@ -23,6 +41,23 @@ export default class LogDatabaseProvider {
          sort: { 
             field: "log_time",
             sorted: true
+         }
+      });
+   }
+
+   static get_by_date_range_sorted_asc(date_from, date_to, n) {
+      return DatabaseProvider.get({
+         table: DeviceLog.schema.name,
+         where: [
+            { 
+               condition: "log_time >= $0 and log_time <= $1", 
+               value: [date_from, date_to] 
+            },
+         ],
+         limit: n,
+         sort: { 
+            field: "log_time",
+            sorted: false
          }
       });
    }

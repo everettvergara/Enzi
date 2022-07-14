@@ -12,24 +12,29 @@ import {
   Switch,
   Image,
   View,
+  TouchableOpacity,
 } from 'react-native';
 import VisitationController from '../controller/visitation';
 import { useFocusEffect } from '@react-navigation/native';
 import Config from '../config/config';
+import DraggableFlatList, { ScaleDecorator } from 'react-native-draggable-flatlist';
+import Helper from '../helpers/helper';
 // import OrderPage from './OrderPage';
 
-const CoveragePlan = ({ item, navigation }) => {
+const CoveragePlan = ({ item, navigation, onLongPress }) => {
   const [isOpened, setOpen] = React.useState(true);
-  console.log(item, "dko")
   return (
-    <View key={item.id} style={{ borderBottomColor: 'grey', flexDirection: "row", alignItems: "center", borderBottomWidth: 1, padding: 4 }}>
-      <FontAwesome name='arrows' size={12} style={{ marginRight: 10 }}></FontAwesome>
-      <View style={{ flex: 1 }}>
-        <Text style={{ fontWeight: 'bold', color: item.is_visited?"green":"red", fontSize: 12 }}>{item.name}</Text>
-        <Text style={{ fontSize: 12 }}>{item.address}</Text>
+    <TouchableOpacity onLongPress={onLongPress}>
+      <View key={item.id} style={{ borderBottomColor: 'grey', flexDirection: "row", alignItems: "center", borderBottomWidth: 1, padding: 4 }}>
+        <FontAwesome name='arrows' size={12} style={{ marginRight: 10 }}></FontAwesome>
+        <View style={{ flex: 1 }}>
+          <Text style={{ fontWeight: 'bold', color: item.is_visited?"green":"red", fontSize: 12 }}>{item.name}</Text>
+          <Text style={{ fontSize: 12 }}>{item.address}</Text>
+        </View>
+        <IconButton icon="pencil" onPress={() => { navigation.push('Visitation Entry', { visitation_detail_id: item.id });  }} iconSize={10} width={30}></IconButton>
       </View>
-      <IconButton icon="pencil" onPress={() => { navigation.push('Visitation Entry', { visitation_detail_id: item.id });  }} iconSize={10} width={30}></IconButton>
-    </View>
+    </TouchableOpacity>
+    
   )
 }
 
@@ -61,11 +66,27 @@ const VisitationSubListPage = ({navigation, route}) => {
         set_visitation_details(data.visitation_details);
       })
    }, []));
- 
-   return (
-     <ScrollView>
-       <View style={{ padding: 10 }}>
 
+	const update_sequence = (data, from, to) => {
+		console.log(from, to);
+  
+		let old_data = Helper.replicate_object(visitation_details);
+		set_visitation_details(data);
+  
+		VisitationController.update_sequence(visitation_id, (from + 1), (to + 1), Config.current_user.api_token)
+		.then((json) => {
+		  if (json.status == "Failed") { throw new Error("Update Sequence Failed") }
+		  set_visitation_details(data);
+		})
+		.catch((e) => {
+		  alert("Error: " + e);
+		  set_visitation_details(old_data);
+		});
+	 }
+
+   const list_header = () => {
+    return (
+      <>
         <View style={{ marginLeft: 5, flexDirection: "row", alignItems: "center", marginBottom: 10 }}>                    
           <View style={{ flex: 1 }}>
             <Text style={{ fontWeight: "bold", fontSize: 16 }}>{ visitation_date }</Text>
@@ -74,14 +95,6 @@ const VisitationSubListPage = ({navigation, route}) => {
         </View>
          <View style={{ flexDirection: 'row', alignItems: 'center' }}>
           
-          {/* <View style={{ flex: 1, padding: 5 }} onPress={() => setOpen(true)}>
-            <Text style={{ fontSize: 10 }}>Search Customers by Date</Text>
-            <View style={{ fontSize: 15, borderBottomColor: "grey", borderBottomWidth: 1, flexDirection: "row" }}>
-               <Text onPress={() => setOpen(true)} style={{ flex: 1, color: "black" }}>{ dateFormat(asofDate, "yyyy mmm d hh:MM") }</Text>
-               <FontAwesome name='calendar' color="#0000c0" style={{ fontSize: 15 }}></FontAwesome>
-            </View>
-          </View> */}
-
           <DatePicker
             modal
             mode="date"
@@ -96,32 +109,27 @@ const VisitationSubListPage = ({navigation, route}) => {
             }}
           ></DatePicker>
          </View>
-         
-         {/* <View style={{ margin: 5 }}>
-            <View style={{ flexDirection: "row" }}>
-               <Text style={{ color: "green", fontWeight: "bold" }}>VISITED</Text>
-               <Text style={{ color: "green", textAlign: "right", flex: 1 }}>32</Text>
-            </View>
-            <View style={{ flexDirection: "row", borderBottomColor: "grey", borderBottomWidth: 1 }}>
-               <Text style={{ color: "red", fontWeight: "bold" }}>NOT VISITED</Text>
-               <Text style={{ color: "red", textAlign: "right", flex: 1 }}>20</Text>
-            </View>
-            <View style={{ flexDirection: "row" }}>
-               <Text style={{ color: "black", fontWeight: "bold", fontSize: 16 }}>TOTAL</Text>
-               <Text style={{ color: "black", textAlign: "right", flex: 1, fontSize: 16 }}>52</Text>
-            </View>
-         </View> */}
-         
-         
- 
-         
-         {
-           visitation_details.map((item) => {
-             return <CoveragePlan item={item} navigation={navigation} key={item.id}></CoveragePlan>            
-           })
-         }
-       </View>
-     </ScrollView>
+      </>
+    );
+   };
+
+   return (
+    <DraggableFlatList
+			data={visitation_details}
+			style={{ margin: 10 }}
+			renderItem={({ item, drag }) => {
+			return (<ScaleDecorator>
+				<CoveragePlan item={item} onLongPress={drag} navigation={navigation}></CoveragePlan>
+			</ScaleDecorator>)
+			}}
+			onDragEnd={({ data, from, to }) => {
+				update_sequence(data, from, to);
+			}}
+			keyExtractor={(item) => item.id}
+			ListHeaderComponent={list_header}
+		>
+
+	  </DraggableFlatList>
    );
 }
 

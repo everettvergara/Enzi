@@ -3,6 +3,7 @@ import FontAwesome from "react-native-vector-icons/FontAwesome";
 import DatePicker from 'react-native-date-picker'
 import dateFormat, { masks } from "dateformat";
 import IconButton from '../components/IconButton';
+import Helper from '../helpers/helper';
 
 import {
   SafeAreaView,
@@ -44,6 +45,7 @@ const HomePage = ({navigation, route}) => {
 
    const date_today = dateFormat(new Date(), "yyyy-mm-dd");
 
+   const [visitation_id, set_visitation_id] = React.useState(0);
   const [visitation_remarks, set_visitation_remarks] = React.useState("-- No visitations for today yet --");
   const [visitation_details, set_visitation_details] = React.useState([]);
 
@@ -59,6 +61,8 @@ const HomePage = ({navigation, route}) => {
     VisitationController.get_visitations_by_date_range(date_today, date_today, Config.current_user.api_token)
     .then((json) => {
 
+      if (json.data.length == 0) return;
+
       data = json.data[0];
 
       console.log(data, "s")
@@ -69,51 +73,63 @@ const HomePage = ({navigation, route}) => {
       //   set_visitation_remarks(json.remarks);
       //   set_visitation_details(json.visitation_details);
       // }  
-
+      set_visitation_id(data.id);
       set_visitation_remarks(data.remarks);
+      // let vds = [];
+      // let vd = Helper.replicate_object(data.visitation_details);
+      // for (let index = 0; index < 6; index++) {
+      //   vds = vds.concat(vd);
+      // }
       set_visitation_details(data.visitation_details);
       
     })
   }, []));
- 
-   return (
-     <SafeAreaView style={{flex:1}}>      
-       <Text style={{ fontSize: 14, textAlign: "center", color: "black" }}>
-          <Text>Welcome, </Text>
-          <Text style={{ fontWeight: 'bold' }}>{ full_name }</Text>
-         
-       </Text>
-       
-       <View style={{ padding: 10 }}>
-         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-          {/* <Text style={{ fontWeight: 'bold', textAlign: "center", padding: 5, flex: 1 }} onPress={() => setOpen(true)}>
-            <Text style={{ fontSize: 13 }}>VISITATION for{"\n"}</Text>
-            <Text style={{ fontSize: 15, color: "blue", textDecorationLine: "underline" }}>{ dateFormat(asofDate, "yyyy mmm d") }</Text>
-            <Text>  </Text>
-            <FontAwesome name='calendar' color="#0000c0" style={{ fontSize: 15 }}></FontAwesome>
-          </Text> */}
-                    
-          <View style={{ flex: 1 }}>
-            <Text style={{ fontWeight: "bold", fontSize: 16 }}>{ date_today }</Text>
-            <Text>{ visitation_remarks }</Text>
-          </View>
 
-          <DatePicker
-            modal
-            mode="date"
-            open={open}
-            date={asofDate}
-            onConfirm={(date) => {
-              setOpen(false)
-              searchByDate(date)
-            }}
-            onCancel={() => {
-              setOpen(false)
-            }}
-          ></DatePicker>
+  const update_sequence = (data, from, to) => {
+    console.log(from, to);
+
+    let old_data = Helper.replicate_object(visitation_details);
+    set_visitation_details(data);
+
+    VisitationController.update_sequence(visitation_id, (from + 1), (to + 1), Config.current_user.api_token)
+    .then((json) => {
+      if (json.status == "Failed") { throw new Error("Update Sequence Failed") }
+      set_visitation_details(data);
+    })
+    .catch((e) => {
+      alert("Error: " + e);
+      set_visitation_details(old_data);
+    });
+  }
+
+  const list_header = () => {
+    return (
+      <>
+        	<Text style={{ fontSize: 14, textAlign: "center", color: "black" }}>
+				<Text>Welcome, </Text>
+				<Text style={{ fontWeight: 'bold' }}>{ full_name }</Text>
+			</Text>
+			<View style={{ flexDirection: 'row', alignItems: 'center' }}>      
+				<View style={{ flex: 1 }}>
+					<Text style={{ fontWeight: "bold", fontSize: 16 }}>{ date_today }</Text>
+					<Text>{ visitation_remarks }</Text>
+				</View>
+
+				<DatePicker
+					modal
+					mode="date"
+					open={open}
+					date={asofDate}
+					onConfirm={(date) => {
+					setOpen(false)
+					searchByDate(date)
+					}}
+					onCancel={() => {
+					setOpen(false)
+					}}
+				></DatePicker>
          </View>
-         
-         <View style={{ margin: 5 }}>
+			<View style={{ margin: 5 }}>
             <View style={{ flexDirection: "row" }}>
                <Text style={{ color: "green", fontWeight: "bold" }}>VISITED</Text>
                <Text style={{ color: "green", textAlign: "right", flex: 1 }}>{ visitation_details.filter(x => x.is_visited).length }</Text>
@@ -127,34 +143,28 @@ const HomePage = ({navigation, route}) => {
                <Text style={{ color: "black", textAlign: "right", flex: 1, fontSize: 16 }}>{ visitation_details.length }</Text>
             </View>
          </View>
-         
-         <DraggableFlatList
-          data={visitation_details}
-          renderItem={({ item, drag }) => {
-            return (<ScaleDecorator>
-              <CoveragePlan item={item} onLongPress={drag} navigation={navigation}></CoveragePlan>
-            </ScaleDecorator>)
-          }}
-          keyExtractor={(item) => item.id}
-          // ListHeaderComponent={() => <Text></Text>}
-          // ListFooterComponent={() => <Text></Text>}
-         >
-
-         </DraggableFlatList>
+      </>
+    )
+  }
  
-         
-         {/* {
-           visitation_details.map((item) => {
-             return (
-                <Draggable key={item.id}>
-                  <CoveragePlan item={item} navigation={navigation}></CoveragePlan>    
-                </Draggable>
-             )
-                  
-           })
-         } */}
-       </View>
-     </SafeAreaView>
+   return (
+		<DraggableFlatList
+			data={visitation_details}
+			style={{ margin: 10 }}
+			renderItem={({ item, drag }) => {
+			return (<ScaleDecorator>
+				<CoveragePlan item={item} onLongPress={drag} navigation={navigation}></CoveragePlan>
+			</ScaleDecorator>)
+			}}
+			onDragEnd={({ data, from, to }) => {
+			update_sequence(data, from, to);
+			}}
+			keyExtractor={(item) => item.id}
+			ListHeaderComponent={list_header}
+			// ListFooterComponent={() => <Text></Text>}
+		>
+
+	  </DraggableFlatList>
    );
 }
 

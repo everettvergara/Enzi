@@ -5,6 +5,9 @@ export default class Helper {
    static get_timestamp() {
       return new Date().getTime();
    }
+   static to_timestamp(date) {
+      return new Date(date).getTime();
+   }
    static toDate(timestamp) {
       return new Date(timestamp);
    }
@@ -62,6 +65,11 @@ export default class Helper {
          }
       }
       return output;
+   }
+   
+
+   static replicate_object(any) {
+      return JSON.parse(JSON.stringify(any));
    }
 
    static toTriggerTypeName(value) {

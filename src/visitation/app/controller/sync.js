@@ -1,16 +1,13 @@
-import DatabaseProvider, { QueryObject } from "../providers/database";
 
-import BatteryLogController from "./log/log_battery";
-import ServiceLogController from "./log/log_service";
-import GPSLogController from "./log/log_gps";
 import LogDatabaseProvider from "../providers/database/log/log";
 import BatteryLogDatabaseProvider from "../providers/database/log/log_battery";
 import ServiceLogDatabaseProvider from "../providers/database/log/log_service";
 import GPSLogDatabaseProvider from "../providers/database/log/log_gps";
+import Config from "../config/config";
 
 export default class SyncController {
 
-   static upload_sys_logs() {
+   static async sync_sys_logs(token) {
 
       let logs = LogDatabaseProvider.get_not_uploaded();
 
@@ -21,13 +18,19 @@ export default class SyncController {
          return log;
       });
 
-      return fetch('https://enzi.com/api/v1/insert_logs', {
+      let params = {
+         data: logs
+      };
+
+      return await fetch(Config.SERVER_URL + "/mobile_services/sync_syslogs", {
          method: 'POST',
          headers: {
             Accept: 'application/json',
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer ' + token
          },
-         body: JSON.stringify(logs)
-      });
+         body: JSON.stringify(params)
+      })
+      .then((response) => response.text())
    }
 }

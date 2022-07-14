@@ -10,7 +10,11 @@ import {
    Switch,
    Image,
    View,
+   SafeAreaView,
  } from 'react-native';
+import { useFocusEffect } from '@react-navigation/native';
+import TrackerController from '../controller/tracker';
+import Config from '../config/config';
 
 const TrackerPage = ({ navigation }) => {
 
@@ -20,7 +24,22 @@ const TrackerPage = ({ navigation }) => {
   const [openedDateFrom, openDateFrom] = React.useState(false);
   const [dateTo, setDateTo] = React.useState(new Date());
   const [openedDateTo, openDateTo] = React.useState(false);
-  const [toggleCheckBox, setToggleCheckBox] = React.useState(false)
+  const [toggleCheckBox, setToggleCheckBox] = React.useState(false);
+
+  const [trackerdata, set_trackerdata] = React.useState([]);
+
+  useFocusEffect(React.useCallback(() => {
+    load_tracker();
+  }, []));
+
+  const load_tracker = () => {
+    TrackerController.load_tracker(dateFormat(dateFrom, "yyyy-mm-dd"), dateFormat(dateTo, "yyyy-mm-dd"), Config.current_user.api_token)
+    .then(d => {
+      console.log(d);
+      set_trackerdata(d);
+    })
+    .catch(e => console.log(e));
+  };
 
   const data = [
     {
@@ -302,12 +321,132 @@ const TrackerPage = ({ navigation }) => {
         }
       ]
     }
-   ];
+  ];
 
-  const users = [
-    {id: 1, name: "Jayvee Sabinay"},
-    {id: 2, name: "Rae Pambid"}
-  ]
+  const TrackerDataDetailRow = (({ coord }) => {
+    return (
+      <View>
+        <View style={{ paddingVertical: 5 }}>
+          <View style={{ flexDirection: 'row', paddingVertical: 5 }}>
+            <View style={{flex: 1}}>
+              {
+                coord.text ? <Text>{ coord.text }</Text>: <></>
+              }
+              <Text>
+              {
+                "(" + coord.lat + ", " + coord.lng + ")"
+              }
+              </Text>
+              {
+                coord.address ? <Text>{ coord.address }</Text> : <></>
+              }
+              
+            </View>
+            <Text style={{ width: 80, textAlign: 'right', textDecorationLine: "underline", color: "blue" }} onPress={() => navigation.navigate("Map View")}>{ dateFormat(coord.datetime, "hh:MM TT") }</Text>
+          </View>
+        </View>
+      </View>
+      
+    );
+  })
+
+  const TrackerDataRow = ({ trackerdatum }) => {
+    const [collapsed, setCollapsed] = React.useState(true);
+
+    return (
+      <View style={{ padding: 5, paddingVertical: 10 }}>
+        <View style={{ flexDirection: "row", alignItems: 'center' }}>
+          <View style={{ flex: 5 }}>
+            <Text style={{ fontWeight: "bold", fontSize: 16 }}>{ dateFormat(trackerdatum.date, 'yyyy-mm-dd') }</Text>
+            {
+              trackerdatum.remarks && trackerdatum.remarks != "" ? 
+                <Text style={{ fontSize: 16 }}>{ trackerdatum.remarks }</Text>: <></>
+            }
+            <Text style={{ fontSize: 16 }}>{ trackerdatum.name }</Text>
+          </View>
+          <View style={{ marginLeft: 15 }} >
+            <FontAwesome size={20} onPress={ () => { setCollapsed(!collapsed) }} name={ collapsed?"chevron-up":"chevron-down"}></FontAwesome>
+          </View>
+        </View>
+        <View style={{ display: collapsed ? "flex": "none" }}>
+        {
+          trackerdatum.coords ? trackerdatum.coords.map((coord, i) => {
+            return <TrackerDataDetailRow coord={coord} key={i}></TrackerDataDetailRow>
+          }): <></>
+        }
+        </View>
+      </View>
+    );
+  }
+
+  return (
+    <SafeAreaView style={{ flexDirection: "column", flex: 1 }}>
+      <View style={{ padding: 10, flexDirection: "row" }}>
+        <View style={{flex: 1}}>
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 1, padding: 5 }}>
+              <Text style={{ fontSize: 10 }}>Date From</Text>
+              <View style={{ fontSize: 15, borderBottomColor: "grey", borderBottomWidth: 1, flexDirection: "row" }}>
+                <Text onPress={() => openDateFrom(true)} style={{ flex: 1, color: "black" }}>{ dateFormat(dateFrom, "yyyy mmm d") }</Text>
+                <FontAwesome name='calendar' onPress={() => openDateFrom(true)} color="#0000c0" style={{ fontSize: 15 }}></FontAwesome>
+              </View>
+            </View>
+            <View style={{ flex: 1, padding: 5 }}>
+              <Text style={{ fontSize: 10 }}>Date To</Text>
+              <View style={{ fontSize: 15, borderBottomColor: "grey", borderBottomWidth: 1, flexDirection: "row" }}>
+                <Text onPress={() => openDateTo(true)} style={{ flex: 1, color: "black" }}>{ dateFormat(dateTo, "yyyy mmm d") }</Text>
+                <FontAwesome name='calendar' onPress={() => openDateTo(true)} color="#0000c0" style={{ fontSize: 15 }}></FontAwesome>
+              </View>
+            </View>
+          </View>
+        </View>
+
+        <View>
+          <IconButton iconSize={20} onPress={() => {
+            load_tracker();
+          }} style={{ margin: 5, backgroundColor: "#0f7fff", borderRadius: 2, padding: 5, marginHorizontal: 3, width: 40, height: 40, color: "white" }} title="Search" icon="search"></IconButton>
+        </View>
+
+        <DatePicker
+          modal
+          mode="date"
+          open={openedDateFrom}
+          date={dateFrom}
+          onConfirm={(date) => {
+            openDateFrom(false)
+            setDateFrom(date)
+          }}
+          onCancel={() => {
+            openDateFrom(false)
+          }}
+         ></DatePicker>
+
+        <DatePicker
+          modal
+          mode="date"
+          open={openedDateTo}
+          date={dateTo}
+          onConfirm={(date) => {
+            openDateTo(false)
+            setDateTo(date)
+          }}
+          onCancel={() => {
+            openDateTo(false)
+          }}
+        ></DatePicker>
+      </View>
+      <ScrollView style={{ padding: 10, flex: 1 }}>
+      {
+        trackerdata.map((trackerdatum) => {
+          return (
+            <TrackerDataRow trackerdatum={trackerdatum} key={trackerdatum.id}>
+            </TrackerDataRow>
+          );
+        })
+      }
+      </ScrollView>
+    </SafeAreaView>
+  );
 
   return (
     <ScrollView>
@@ -349,7 +488,7 @@ const TrackerPage = ({ navigation }) => {
            }}
          ></DatePicker>
 
-          <DatePicker
+        <DatePicker
            modal
            mode="date"
            open={openedDateTo}

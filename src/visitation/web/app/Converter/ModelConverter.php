@@ -44,6 +44,7 @@ class ModelConverter
       $new_model->third_party = $model->third_party !== null ? static::to_visitation_third_party_entry($model->third_party): false;
       $new_model->negative = $model->negative !== null ? static::to_visitation_negative_party_entry($model->negative): false;
       $new_model->is_visited = $new_model->right_party || $new_model->third_party || $new_model->negative;
+      $new_model->seq = $model->seq;
       return $new_model;
    }
 
