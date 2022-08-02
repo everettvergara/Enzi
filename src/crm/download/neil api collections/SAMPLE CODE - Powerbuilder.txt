@@ -1,0 +1,48 @@
+OLEObject example
+int return_code
+
+example = CREATE OLEObject
+
+//SPREADSHEET
+return_code = example.ConnectToNewObject("ShinraAPI.Spreadsheet")
+
+if return_code <> 0 Then
+	destroy example
+	messagebox("Error", "Component Installation Error");
+else
+	// Methods
+	// 0 - Change Backcolor and Forecolor r,g,b separated by semi-colon
+	// 1 - Change Width
+	// 2 - Change Value
+	
+	example.EditCell("C:/Users/Shinra/Desktop/test.xlsx", 0, "A1", "0,0,0;255,255,255", 1, "qwe")
+	example.EditCell("C:/Users/Shinra/Desktop/test1.xlsx", 1, "A1", "110")
+	example.EditCell("C:/Users/Shinra/Desktop/test1.xlsx", 2, "A1", "32")
+	example.EditCell("C:/Users/Shinra/Desktop/test1.xlsx", 2, "A2", "32")
+	example.EditCell("C:/Users/Shinra/Desktop/test1.xlsx", 2, "A3", "=a1*a2")
+	example.ConvertToCSV("C:/Users/Shinra/Desktop/test.xlsx", "C:/Users/Shinra/Desktop/test1.csv")
+	example.ConvertToExcel("C:/Users/Shinra/Desktop/test1.csv", "C:/Users/Shinra/Desktop/123")
+	destroy example
+end if
+
+//PDF
+return_code = example.ConnectToNewObject("ShinraAPI.PDF")
+
+if return_code <> 0 then
+	destroy example
+	messagebox("Error", "Component Installation Error");
+else
+	example.Protect("C:/Users/Shinra/Desktop/test.pdf", "123", "password")
+	destroy example
+end if
+
+//WORD
+return_code = example.ConnectToNewObject("ShinraAPI.Word")
+
+if return_code <> 0 then
+	destroy example
+	messagebox("Error", "Component Installation Error");
+else
+	example.Protect("C:/Users/Shinra/Desktop/qwe.docx", "qwe")
+	destroy example
+end if

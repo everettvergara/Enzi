@@ -1,0 +1,5 @@
+evergarra
+Enzi@2018
+delete enzicrmdb.bak
+put c:\sourceftp\enzicrmdb.bak enzicrmdb.bak
+quit
